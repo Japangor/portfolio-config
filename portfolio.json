@@ -19,9 +19,81 @@
   "kill_switch.lessons": false,
   "kill_switch.tools": false,
   "packages": {
+    "com.gjam.agecalc": {
+      "ads.interstitial_every_n_screens": 4,
+      "ads.interstitial_session_cap": 3,
+      "ux.rate_prompt_after_screens": 5
+    },
+    "com.gjam.bankingaptitude": {
+      "ads.interstitial_every_n_screens": 3,
+      "ads.interstitial_session_cap": 8
+    },
+    "com.gjam.bmicalc": {
+      "ads.interstitial_every_n_screens": 4,
+      "ads.interstitial_session_cap": 3,
+      "ux.rate_prompt_after_screens": 5
+    },
+    "com.gjam.compoundinterest": {
+      "ads.interstitial_every_n_screens": 3,
+      "ads.interstitial_session_cap": 5
+    },
+    "com.gjam.currencyconv": {
+      "ads.interstitial_every_n_screens": 4,
+      "ads.interstitial_session_cap": 3,
+      "ux.rate_prompt_after_screens": 5
+    },
+    "com.gjam.discountcalc": {
+      "ads.interstitial_every_n_screens": 4,
+      "ads.interstitial_session_cap": 3,
+      "ux.rate_prompt_after_screens": 5
+    },
     "com.gjam.emicalculator": {
       "ads.interstitial_every_n_screens": 3,
       "ads.interstitial_session_cap": 5
+    },
+    "com.gjam.gateaptitude": {
+      "ads.interstitial_every_n_screens": 3,
+      "ads.interstitial_session_cap": 8
+    },
+    "com.gjam.grequant": {
+      "ads.interstitial_every_n_screens": 3,
+      "ads.interstitial_session_cap": 8
+    },
+    "com.gjam.gstcalculator": {
+      "ads.interstitial_every_n_screens": 3,
+      "ads.interstitial_session_cap": 5
+    },
+    "com.gjam.ieltswords": {
+      "ads.interstitial_every_n_screens": 3,
+      "ads.interstitial_session_cap": 8
+    },
+    "com.gjam.incometaxcalc": {
+      "ads.interstitial_every_n_screens": 3,
+      "ads.interstitial_session_cap": 5
+    },
+    "com.gjam.learnc": {
+      "ads.interstitial_every_n_screens": 2,
+      "ads.interstitial_session_cap": 10
+    },
+    "com.gjam.learncpp": {
+      "ads.interstitial_every_n_screens": 2,
+      "ads.interstitial_session_cap": 10
+    },
+    "com.gjam.learnhtml": {
+      "ads.interstitial_every_n_screens": 2,
+      "ads.interstitial_session_cap": 10
+    },
+    "com.gjam.learnjava": {
+      "ads.interstitial_every_n_screens": 2,
+      "ads.interstitial_session_cap": 10
+    },
+    "com.gjam.learnjavascript": {
+      "ads.interstitial_every_n_screens": 2,
+      "ads.interstitial_session_cap": 10
+    },
+    "com.gjam.learnkotlin": {
+      "ads.interstitial_every_n_screens": 2,
+      "ads.interstitial_session_cap": 10
     },
     "com.gjam.learnpython": {
       "ads.interstitial_every_n_screens": 2,
@@ -30,6 +102,57 @@
     "com.gjam.learnsql": {
       "ads.interstitial_every_n_screens": 2,
       "ads.interstitial_session_cap": 10
+    },
+    "com.gjam.neetbiology": {
+      "ads.interstitial_every_n_screens": 3,
+      "ads.interstitial_session_cap": 8
+    },
+    "com.gjam.neetchemistry": {
+      "ads.interstitial_every_n_screens": 3,
+      "ads.interstitial_session_cap": 8
+    },
+    "com.gjam.neetphysics": {
+      "ads.interstitial_every_n_screens": 3,
+      "ads.interstitial_session_cap": 8
+    },
+    "com.gjam.pctcalc": {
+      "ads.interstitial_every_n_screens": 4,
+      "ads.interstitial_session_cap": 3,
+      "ux.rate_prompt_after_screens": 5
+    },
+    "com.gjam.salarycalc": {
+      "ads.interstitial_every_n_screens": 3,
+      "ads.interstitial_session_cap": 5
+    },
+    "com.gjam.satvocabulary": {
+      "ads.interstitial_every_n_screens": 3,
+      "ads.interstitial_session_cap": 8
+    },
+    "com.gjam.sipcalculator": {
+      "ads.interstitial_every_n_screens": 3,
+      "ads.interstitial_session_cap": 5
+    },
+    "com.gjam.sscgkquiz": {
+      "ads.interstitial_every_n_screens": 3,
+      "ads.interstitial_session_cap": 8
+    },
+    "com.gjam.tipcalc": {
+      "ads.interstitial_every_n_screens": 4,
+      "ads.interstitial_session_cap": 3,
+      "ux.rate_prompt_after_screens": 5
+    },
+    "com.gjam.typingdrill": {
+      "ads.interstitial_every_n_screens": 4,
+      "ads.interstitial_session_cap": 4
+    },
+    "com.gjam.unitconverter": {
+      "ads.interstitial_every_n_screens": 4,
+      "ads.interstitial_session_cap": 3,
+      "ux.rate_prompt_after_screens": 5
+    },
+    "com.gjam.upschistory": {
+      "ads.interstitial_every_n_screens": 3,
+      "ads.interstitial_session_cap": 8
     }
   },
   "ux.rate_prompt_after_screens": 8,
