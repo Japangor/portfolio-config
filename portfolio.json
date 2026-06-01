@@ -1,0 +1,38 @@
+{
+  "ads.app_open_cooldown_sec": 14400,
+  "ads.app_open_enabled": true,
+  "ads.banner_enabled": true,
+  "ads.interstitial_cooldown_sec": 60,
+  "ads.interstitial_enabled": true,
+  "ads.interstitial_every_n_screens": 2,
+  "ads.interstitial_session_cap": 8,
+  "ads.interstitial_warmup_screens": 1,
+  "ads.rewarded_enabled": true,
+  "ads.test_devices_enabled": false,
+  "announcement.body": "",
+  "announcement.title": "",
+  "announcement.url": "",
+  "force_update.message": "",
+  "force_update.min_version_code": 0,
+  "force_update.url": "https://play.google.com/store/apps/details?id=",
+  "kill_switch.calculator": false,
+  "kill_switch.lessons": false,
+  "kill_switch.tools": false,
+  "packages": {
+    "com.gjam.emicalculator": {
+      "ads.interstitial_every_n_screens": 3,
+      "ads.interstitial_session_cap": 5
+    },
+    "com.gjam.learnpython": {
+      "ads.interstitial_every_n_screens": 2,
+      "ads.interstitial_session_cap": 10
+    },
+    "com.gjam.learnsql": {
+      "ads.interstitial_every_n_screens": 2,
+      "ads.interstitial_session_cap": 10
+    }
+  },
+  "ux.rate_prompt_after_screens": 8,
+  "ux.share_enabled": true,
+  "ux.show_rate_prompt": true
+}
