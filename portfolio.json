@@ -6,6 +6,7 @@
   "ads.banner_enabled": true,
   "ads.banner_unit_id": "ca-app-pub-3483870164836220/7184019318",
   "ads.force_test_ads": false,
+  "ads.interstitial_button_cooldown_sec": 25,
   "ads.interstitial_cooldown_sec": 60,
   "ads.interstitial_enabled": true,
   "ads.interstitial_every_n_screens": 2,
@@ -14,6 +15,8 @@
   "ads.interstitial_warmup_screens": 1,
   "ads.native_unit_id": "",
   "ads.rewarded_enabled": true,
+  "ads.rewarded_interstitial_enabled": true,
+  "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/5764646349",
   "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/8390809687",
   "ads.test_devices_enabled": false,
   "announcement.body": "",
@@ -87,8 +90,17 @@
       "ads.interstitial_session_cap": 10
     },
     "com.gjam.learnhtml": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~8358866542",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/4567865776",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/4376294081",
+      "ads.interstitial_button_cooldown_sec": 20,
       "ads.interstitial_every_n_screens": 2,
-      "ads.interstitial_session_cap": 10
+      "ads.interstitial_session_cap": 12,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/3902337128",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/2871640724",
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/2871640724"
     },
     "com.gjam.learnjava": {
       "ads.interstitial_every_n_screens": 2,
@@ -160,6 +172,19 @@
     "com.gjam.upschistory": {
       "ads.interstitial_every_n_screens": 3,
       "ads.interstitial_session_cap": 8
+    },
+    "com.japangor.learntocode": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~6533158293",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/2380686138",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/7253738866",
+      "ads.interstitial_button_cooldown_sec": 20,
+      "ads.interstitial_every_n_screens": 2,
+      "ads.interstitial_session_cap": 12,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/9130613079",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/3693767806",
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/3693767806"
     }
   },
   "ux.rate_prompt_after_screens": 8,
