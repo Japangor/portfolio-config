@@ -247,6 +247,19 @@
       "ads.rewarded_unit_id": "",
       "ux.rate_prompt_after_screens": 10
     },
+    "com.japangor.learnjava": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~8494754068",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/7338333494",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/5470718057",
+      "ads.interstitial_button_cooldown_sec": 18,
+      "ads.interstitial_every_n_screens": 2,
+      "ads.interstitial_session_cap": 14,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/6764608105",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/1205159665",
+      "ads.rewarded_unit_id": ""
+    },
     "com.japangor.learnjs": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~8494754068",
       "ads.app_open_cooldown_sec": 10800,
