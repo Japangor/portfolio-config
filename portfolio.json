@@ -16,8 +16,8 @@
   "ads.native_unit_id": "",
   "ads.rewarded_enabled": true,
   "ads.rewarded_interstitial_enabled": true,
-  "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/5764646349",
-  "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/8390809687",
+  "ads.rewarded_interstitial_unit_id": "",
+  "ads.rewarded_unit_id": "",
   "ads.test_devices_enabled": false,
   "announcement.body": "",
   "announcement.title": "",
@@ -138,6 +138,19 @@
       "ads.interstitial_every_n_screens": 2,
       "ads.interstitial_session_cap": 10
     },
+    "com.gjam.lynance": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~7959935979",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/9081594345",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/8400587975",
+      "ads.interstitial_button_cooldown_sec": 20,
+      "ads.interstitial_every_n_screens": 2,
+      "ads.interstitial_session_cap": 12,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/9273166039",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/4020839357",
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/4020839357"
+    },
     "com.gjam.neetbiology": {
       "ads.interstitial_every_n_screens": 3,
       "ads.interstitial_session_cap": 8
@@ -220,48 +233,39 @@
       "ads.app_open_cooldown_sec": 10800,
       "ads.app_open_unit_id": "ca-app-pub-3483870164836220/7710702739",
       "ads.banner_unit_id": "ca-app-pub-3483870164836220/7045174087",
-      "ads.interstitial_button_cooldown_sec": 18,
-      "ads.interstitial_cooldown_sec": 55,
+      "ads.interstitial_button_cooldown_sec": 20,
       "ads.interstitial_every_n_screens": 2,
-      "ads.interstitial_session_cap": 14,
+      "ads.interstitial_session_cap": 12,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/3660462848",
       "ads.interstitial_warmup_screens": 0,
-      "ads.rewarded_interstitial_enabled": true,
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/5676252096",
-      "ads.rewarded_unit_id": "",
-      "ux.rate_prompt_after_screens": 10
+      "ads.rewarded_unit_id": ""
     },
     "com.japangor.learndigital": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~7370265969",
       "ads.app_open_cooldown_sec": 10800,
       "ads.app_open_unit_id": "ca-app-pub-3483870164836220/2068179572",
       "ads.banner_unit_id": "ca-app-pub-3483870164836220/5032568507",
-      "ads.interstitial_button_cooldown_sec": 18,
-      "ads.interstitial_cooldown_sec": 55,
+      "ads.interstitial_button_cooldown_sec": 20,
       "ads.interstitial_every_n_screens": 2,
-      "ads.interstitial_session_cap": 14,
+      "ads.interstitial_session_cap": 12,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/5778673964",
       "ads.interstitial_warmup_screens": 0,
-      "ads.rewarded_interstitial_enabled": true,
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/8170857412",
-      "ads.rewarded_unit_id": "",
-      "ux.rate_prompt_after_screens": 10
+      "ads.rewarded_unit_id": ""
     },
     "com.japangor.learnfirebase": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~4490975275",
       "ads.app_open_cooldown_sec": 10800,
       "ads.app_open_unit_id": "ca-app-pub-3483870164836220/5189470852",
       "ads.banner_unit_id": "ca-app-pub-3483870164836220/3911058526",
-      "ads.interstitial_button_cooldown_sec": 18,
-      "ads.interstitial_cooldown_sec": 55,
+      "ads.interstitial_button_cooldown_sec": 20,
       "ads.interstitial_every_n_screens": 2,
-      "ads.interstitial_session_cap": 14,
+      "ads.interstitial_session_cap": 12,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/8198777576",
       "ads.interstitial_warmup_screens": 0,
-      "ads.rewarded_interstitial_enabled": true,
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/1284895188",
-      "ads.rewarded_unit_id": "",
-      "ux.rate_prompt_after_screens": 10
+      "ads.rewarded_unit_id": ""
     },
     "com.japangor.learnjava": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~8494754068",
@@ -294,16 +298,13 @@
       "ads.app_open_cooldown_sec": 10800,
       "ads.app_open_unit_id": "ca-app-pub-3483870164836220/7927314839",
       "ads.banner_unit_id": "ca-app-pub-3483870164836220/2015522924",
-      "ads.interstitial_button_cooldown_sec": 18,
-      "ads.interstitial_cooldown_sec": 55,
+      "ads.interstitial_button_cooldown_sec": 20,
       "ads.interstitial_every_n_screens": 2,
-      "ads.interstitial_session_cap": 14,
+      "ads.interstitial_session_cap": 12,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/5492723185",
       "ads.interstitial_warmup_screens": 0,
-      "ads.rewarded_interstitial_enabled": true,
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/1859610259",
-      "ads.rewarded_unit_id": "",
-      "ux.rate_prompt_after_screens": 10
+      "ads.rewarded_unit_id": ""
     },
     "com.japangor.learntocode": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~6533158293",
@@ -336,16 +337,13 @@
       "ads.app_open_cooldown_sec": 10800,
       "ads.app_open_unit_id": "ca-app-pub-3483870164836220/6206049377",
       "ads.banner_unit_id": "ca-app-pub-3483870164836220/9651156124",
-      "ads.interstitial_button_cooldown_sec": 18,
-      "ads.interstitial_cooldown_sec": 55,
+      "ads.interstitial_button_cooldown_sec": 20,
       "ads.interstitial_every_n_screens": 2,
-      "ads.interstitial_session_cap": 14,
+      "ads.interstitial_session_cap": 12,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/4102630212",
       "ads.interstitial_warmup_screens": 0,
-      "ads.rewarded_interstitial_enabled": true,
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/5955757616",
-      "ads.rewarded_unit_id": "",
-      "ux.rate_prompt_after_screens": 10
+      "ads.rewarded_unit_id": ""
     }
   },
   "ux.rate_prompt_after_screens": 8,
