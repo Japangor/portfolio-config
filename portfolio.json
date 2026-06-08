@@ -386,17 +386,17 @@
       "ads.rewarded_unit_id": ""
     },
     "com.japangor.cprograms": {
-      "ads.admob_app_id": "ca-app-pub-3483870164836220~9205730735",
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~8134824660",
       "ads.app_open_cooldown_sec": 10800,
-      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/1094773593",
-      "ads.banner_unit_id": "ca-app-pub-3483870164836220/7184019318",
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/1400600780",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/2905254144",
       "ads.interstitial_button_cooldown_sec": 20,
       "ads.interstitial_every_n_screens": 3,
       "ads.interstitial_session_cap": 12,
-      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/7014452758",
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/1287930469",
       "ads.interstitial_warmup_screens": 0,
-      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/5764646349",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/8390809687"
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/7470195431",
+      "ads.rewarded_unit_id": ""
     },
     "com.japangor.dual": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~3663567935",
@@ -516,16 +516,16 @@
       "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/3693767806"
     },
     "com.japangor.learntocodec": {
-      "ads.admob_app_id": "ca-app-pub-3483870164836220~8134824660",
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~6844644946",
       "ads.app_open_cooldown_sec": 10800,
-      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/1400600780",
-      "ads.banner_unit_id": "ca-app-pub-3483870164836220/2905254144",
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/7383692221",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/1009855569",
       "ads.interstitial_button_cooldown_sec": 20,
       "ads.interstitial_every_n_screens": 2,
       "ads.interstitial_session_cap": 12,
-      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/1287930469",
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/1016074515",
       "ads.interstitial_warmup_screens": 0,
-      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/7470195431",
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/8696773894",
       "ads.rewarded_unit_id": ""
     },
     "com.japangor.python": {
