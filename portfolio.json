@@ -44,8 +44,17 @@
       "ux.rate_prompt_after_screens": 5
     },
     "com.gjam.bankingaptitude": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~6433676868",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/9389709353",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/3015872692",
+      "ads.interstitial_button_cooldown_sec": 18,
       "ads.interstitial_every_n_screens": 3,
-      "ads.interstitial_session_cap": 8
+      "ads.interstitial_session_cap": 8,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/1702791024",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/5410640746",
+      "ads.rewarded_unit_id": ""
     },
     "com.gjam.bmicalc": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~2094342148",
@@ -62,8 +71,17 @@
       "ux.rate_prompt_after_screens": 5
     },
     "com.gjam.compoundinterest": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~6160314311",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/5450464340",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/5271039948",
+      "ads.interstitial_button_cooldown_sec": 18,
       "ads.interstitial_every_n_screens": 3,
-      "ads.interstitial_session_cap": 5
+      "ads.interstitial_session_cap": 5,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/4097559077",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/3957958275",
+      "ads.rewarded_unit_id": ""
     },
     "com.gjam.cricket": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~1746045403",
@@ -76,6 +94,7 @@
       "ads.interstitial_session_cap": 25,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/6914447614",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/9192108669",
       "ads.rewarded_interstitial_enabled": true,
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/6159769145",
       "ads.rewarded_unit_id": "",
@@ -92,6 +111,7 @@
       "ads.interstitial_session_cap": 20,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/6914447614",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/9192108669",
       "ads.rewarded_interstitial_enabled": true,
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/6159769145",
       "ads.rewarded_unit_id": "",
@@ -108,6 +128,7 @@
       "ads.interstitial_session_cap": 20,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/6914447614",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/9192108669",
       "ads.rewarded_interstitial_enabled": true,
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/6159769145",
       "ads.rewarded_unit_id": "",
@@ -124,6 +145,7 @@
       "ads.interstitial_session_cap": 20,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/6914447614",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/9192108669",
       "ads.rewarded_interstitial_enabled": true,
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/6159769145",
       "ads.rewarded_unit_id": "",
@@ -140,6 +162,7 @@
       "ads.interstitial_session_cap": 20,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/6914447614",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/9192108669",
       "ads.rewarded_interstitial_enabled": true,
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/6159769145",
       "ads.rewarded_unit_id": "",
@@ -156,6 +179,7 @@
       "ads.interstitial_session_cap": 20,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/6914447614",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/9192108669",
       "ads.rewarded_interstitial_enabled": true,
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/6159769145",
       "ads.rewarded_unit_id": "",
@@ -203,20 +227,56 @@
       "ads.rewarded_unit_id": ""
     },
     "com.gjam.gateaptitude": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~7281592783",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/2090146712",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/3403228380",
+      "ads.interstitial_button_cooldown_sec": 18,
       "ads.interstitial_every_n_screens": 3,
-      "ads.interstitial_session_cap": 8
+      "ads.interstitial_session_cap": 8,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/6552135903",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/4479630625",
+      "ads.rewarded_unit_id": ""
     },
     "com.gjam.grequant": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~6129051383",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/2169694881",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/1471395738",
+      "ads.interstitial_button_cooldown_sec": 18,
       "ads.interstitial_every_n_screens": 3,
-      "ads.interstitial_session_cap": 8
+      "ads.interstitial_session_cap": 8,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/2644876602",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/8068593673",
+      "ads.rewarded_unit_id": ""
     },
     "com.gjam.gstcalculator": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~6296045685",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/6012441828",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/7325523497",
+      "ads.interstitial_button_cooldown_sec": 18,
       "ads.interstitial_every_n_screens": 3,
-      "ads.interstitial_session_cap": 5
+      "ads.interstitial_session_cap": 5,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/3037763855",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/9856613218",
+      "ads.rewarded_unit_id": ""
     },
     "com.gjam.ieltswords": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~3486988864",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/4990471362",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/9731957300",
+      "ads.interstitial_button_cooldown_sec": 18,
       "ads.interstitial_every_n_screens": 3,
-      "ads.interstitial_session_cap": 8
+      "ads.interstitial_session_cap": 8,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/8418875634",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/5341286151",
+      "ads.rewarded_unit_id": ""
     },
     "com.gjam.incometaxcalc": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~8631830331",
@@ -232,12 +292,30 @@
       "ads.rewarded_unit_id": ""
     },
     "com.gjam.learnc": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~6780200764",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/2364308029",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/5239054233",
+      "ads.interstitial_button_cooldown_sec": 18,
       "ads.interstitial_every_n_screens": 2,
-      "ads.interstitial_session_cap": 10
+      "ads.interstitial_session_cap": 10,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/5117629729",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/3925972568",
+      "ads.rewarded_unit_id": ""
     },
     "com.gjam.learncpp": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~8215400502",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/8267371392",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/8655555062",
+      "ads.interstitial_button_cooldown_sec": 18,
       "ads.interstitial_every_n_screens": 2,
-      "ads.interstitial_session_cap": 10
+      "ads.interstitial_session_cap": 10,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/6175855673",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/9580453064",
+      "ads.rewarded_unit_id": ""
     },
     "com.gjam.learnhtml": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~8358866542",
@@ -253,20 +331,47 @@
       "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/2871640724"
     },
     "com.gjam.learnjava": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~8695917663",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/1122005397",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/8610447323",
+      "ads.interstitial_button_cooldown_sec": 18,
       "ads.interstitial_every_n_screens": 2,
-      "ads.interstitial_session_cap": 10
+      "ads.interstitial_session_cap": 10,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/7297365658",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/4671202319",
+      "ads.rewarded_unit_id": ""
     },
     "com.gjam.learnjavascript": {
       "ads.interstitial_every_n_screens": 2,
       "ads.interstitial_session_cap": 10
     },
     "com.gjam.learnkotlin": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~8659887510",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/2453304917",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/6392549925",
+      "ads.interstitial_button_cooldown_sec": 18,
       "ads.interstitial_every_n_screens": 2,
-      "ads.interstitial_session_cap": 10
+      "ads.interstitial_session_cap": 10,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/5079468256",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/3766386588",
+      "ads.rewarded_unit_id": ""
     },
     "com.gjam.learnpython": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~5937479699",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/7230449875",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/6785437177",
+      "ads.interstitial_button_cooldown_sec": 18,
       "ads.interstitial_every_n_screens": 2,
-      "ads.interstitial_session_cap": 10
+      "ads.interstitial_session_cap": 10,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/5472355503",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/4159273832",
+      "ads.rewarded_unit_id": ""
     },
     "com.gjam.learnsql": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~7002898368",
@@ -295,29 +400,74 @@
       "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/4020839357"
     },
     "com.gjam.neetbiology": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~9442983580",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/7038878186",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/1978123196",
+      "ads.interstitial_button_cooldown_sec": 18,
       "ads.interstitial_every_n_screens": 3,
-      "ads.interstitial_session_cap": 8
+      "ads.interstitial_session_cap": 8,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/9665041521",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/1533110497",
+      "ads.rewarded_unit_id": ""
     },
     "com.gjam.neetchemistry": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~5589237165",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/3549692333",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/6954289720",
+      "ads.interstitial_button_cooldown_sec": 18,
       "ads.interstitial_every_n_screens": 3,
-      "ads.interstitial_session_cap": 8
+      "ads.interstitial_session_cap": 8,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/5641208057",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/7342473391",
+      "ads.rewarded_unit_id": ""
     },
     "com.gjam.neetphysics": {
       "ads.interstitial_every_n_screens": 3,
       "ads.interstitial_session_cap": 8
     },
     "com.gjam.pctcalc": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~9710983416",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/1279824042",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/5817834851",
+      "ads.interstitial_button_cooldown_sec": 18,
       "ads.interstitial_every_n_screens": 4,
       "ads.interstitial_session_cap": 3,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/2201484470",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/9888402803",
+      "ads.rewarded_unit_id": "",
       "ux.rate_prompt_after_screens": 5
     },
     "com.gjam.salarycalc": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~8611554548",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/8687540777",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/9220028828",
+      "ads.interstitial_button_cooldown_sec": 18,
       "ads.interstitial_every_n_screens": 3,
-      "ads.interstitial_session_cap": 5
+      "ads.interstitial_session_cap": 5,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/2261733222",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/7906947158",
+      "ads.rewarded_unit_id": ""
     },
     "com.gjam.satvocabulary": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~6625248557",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/2393056164",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/9760115141",
+      "ads.interstitial_button_cooldown_sec": 18,
       "ads.interstitial_every_n_screens": 3,
-      "ads.interstitial_session_cap": 8
+      "ads.interstitial_session_cap": 8,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/5019219508",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/3706137832",
+      "ads.rewarded_unit_id": ""
     },
     "com.gjam.sipcalculator": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~4776345801",
@@ -360,17 +510,44 @@
       "ux.rate_prompt_after_screens": 5
     },
     "com.gjam.typingdrill": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~6354122524",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/5219069057",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/2908061482",
+      "ads.interstitial_button_cooldown_sec": 18,
       "ads.interstitial_every_n_screens": 4,
-      "ads.interstitial_session_cap": 4
+      "ads.interstitial_session_cap": 4,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/7453811152",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/6402293798",
+      "ads.rewarded_unit_id": ""
     },
     "com.gjam.unitconverter": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~1204027764",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/6140729488",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/9281898149",
+      "ads.interstitial_button_cooldown_sec": 18,
       "ads.interstitial_every_n_screens": 4,
       "ads.interstitial_session_cap": 3,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/2070161535",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/5089212123",
+      "ads.rewarded_unit_id": "",
       "ux.rate_prompt_after_screens": 5
     },
     "com.gjam.upschistory": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~4615361993",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/7425063014",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/1051226353",
+      "ads.interstitial_button_cooldown_sec": 18,
       "ads.interstitial_every_n_screens": 3,
-      "ads.interstitial_session_cap": 8
+      "ads.interstitial_session_cap": 8,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/2612890896",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/8738144686",
+      "ads.rewarded_unit_id": ""
     },
     "com.japangor.cppexamples": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~1309551813",
@@ -410,6 +587,19 @@
       "ads.interstitial_warmup_screens": 0,
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/9654632341",
       "ads.rewarded_unit_id": ""
+    },
+    "com.japangor.emailcaper": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~3601368074",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/2962534821",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/7878985435",
+      "ads.interstitial_button_cooldown_sec": 18,
+      "ads.interstitial_every_n_screens": 2,
+      "ads.interstitial_session_cap": 14,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/2104453574",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/9200640115",
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/5813769303"
     },
     "com.japangor.gjamtexteditor": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~6045039911",
@@ -528,6 +718,32 @@
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/8696773894",
       "ads.rewarded_unit_id": ""
     },
+    "com.japangor.memogame": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~3258812637",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/1271546184",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/8827141571",
+      "ads.interstitial_button_cooldown_sec": 18,
+      "ads.interstitial_every_n_screens": 2,
+      "ads.interstitial_session_cap": 14,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/3291204862",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/6200978231",
+      "ads.rewarded_unit_id": ""
+    },
+    "com.japangor.platformer": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~6633891374",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/2597413179",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/3910494849",
+      "ads.interstitial_button_cooldown_sec": 18,
+      "ads.interstitial_every_n_screens": 2,
+      "ads.interstitial_session_cap": 14,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/8023289812",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/1284331502",
+      "ads.rewarded_unit_id": ""
+    },
     "com.japangor.python": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~3990949579",
       "ads.app_open_cooldown_sec": 10800,
@@ -539,6 +755,19 @@
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/4102630212",
       "ads.interstitial_warmup_screens": 0,
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/5955757616",
+      "ads.rewarded_unit_id": ""
+    },
+    "parivahan.com": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~8360041597",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/9561442623",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/1874524293",
+      "ads.interstitial_button_cooldown_sec": 18,
+      "ads.interstitial_every_n_screens": 2,
+      "ads.interstitial_session_cap": 14,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/4794491249",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/7849739852",
       "ads.rewarded_unit_id": ""
     }
   },
