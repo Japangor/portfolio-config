@@ -1,17 +1,17 @@
 {
-  "ads.admob_app_id": "ca-app-pub-3483870164836220~9205730735",
+  "ads.admob_app_id": "",
   "ads.app_open_cooldown_sec": 14400,
   "ads.app_open_enabled": true,
-  "ads.app_open_unit_id": "ca-app-pub-3483870164836220/1094773593",
+  "ads.app_open_unit_id": "",
   "ads.banner_enabled": true,
-  "ads.banner_unit_id": "ca-app-pub-3483870164836220/7184019318",
+  "ads.banner_unit_id": "",
   "ads.force_test_ads": false,
   "ads.interstitial_button_cooldown_sec": 25,
   "ads.interstitial_cooldown_sec": 60,
   "ads.interstitial_enabled": true,
   "ads.interstitial_every_n_screens": 2,
   "ads.interstitial_session_cap": 8,
-  "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/7014452758",
+  "ads.interstitial_unit_id": "",
   "ads.interstitial_warmup_screens": 1,
   "ads.native_unit_id": "",
   "ads.rewarded_enabled": true,
@@ -39,6 +39,7 @@
       "ads.interstitial_session_cap": 3,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/8639413660",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/6166987512",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/3906117263",
       "ads.rewarded_unit_id": "",
       "ux.rate_prompt_after_screens": 5
@@ -53,6 +54,7 @@
       "ads.interstitial_session_cap": 8,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/1702791024",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/4303536650",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/5410640746",
       "ads.rewarded_unit_id": ""
     },
@@ -66,6 +68,7 @@
       "ads.interstitial_session_cap": 3,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/6340708914",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/3788531338",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/5246963561",
       "ads.rewarded_unit_id": "",
       "ux.rate_prompt_after_screens": 5
@@ -80,6 +83,7 @@
       "ads.interstitial_session_cap": 5,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/4097559077",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/3061773028",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/3957958275",
       "ads.rewarded_unit_id": ""
     },
@@ -195,6 +199,7 @@
       "ads.interstitial_session_cap": 3,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/8289579787",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/4666498736",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/6976498116",
       "ads.rewarded_unit_id": "",
       "ux.rate_prompt_after_screens": 5
@@ -209,6 +214,7 @@
       "ads.interstitial_session_cap": 3,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/3444447216",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/7701566041",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/8944185907",
       "ads.rewarded_unit_id": "",
       "ux.rate_prompt_after_screens": 5
@@ -223,6 +229,7 @@
       "ads.interstitial_session_cap": 5,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/1207646205",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/6031551291",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/8894564539",
       "ads.rewarded_unit_id": ""
     },
@@ -236,6 +243,7 @@
       "ads.interstitial_session_cap": 8,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/6552135903",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/8396534768",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/4479630625",
       "ads.rewarded_unit_id": ""
     },
@@ -249,6 +257,7 @@
       "ads.interstitial_session_cap": 8,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/2644876602",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/7101090380",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/8068593673",
       "ads.rewarded_unit_id": ""
     },
@@ -262,6 +271,7 @@
       "ads.interstitial_session_cap": 5,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/3037763855",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/3952182867",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/9856613218",
       "ads.rewarded_unit_id": ""
     },
@@ -275,6 +285,7 @@
       "ads.interstitial_session_cap": 8,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/8418875634",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/4716310052",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/5341286151",
       "ads.rewarded_unit_id": ""
     },
@@ -288,6 +299,7 @@
       "ads.interstitial_session_cap": 5,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/2462538035",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/5097743572",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/5388084279",
       "ads.rewarded_unit_id": ""
     },
@@ -301,6 +313,7 @@
       "ads.interstitial_session_cap": 10,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/5117629729",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/3677389698",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/3925972568",
       "ads.rewarded_unit_id": ""
     },
@@ -314,6 +327,7 @@
       "ads.interstitial_session_cap": 10,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/6175855673",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/4862774005",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/9580453064",
       "ads.rewarded_unit_id": ""
     },
@@ -325,10 +339,11 @@
       "ads.interstitial_button_cooldown_sec": 20,
       "ads.interstitial_every_n_screens": 2,
       "ads.interstitial_session_cap": 12,
-      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/3902337128",
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/2412567614",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/3537249892",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/2871640724",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/2871640724"
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/5579277073"
     },
     "com.gjam.learnjava": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~8695917663",
@@ -340,6 +355,7 @@
       "ads.interstitial_session_cap": 10,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/7297365658",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/6654367820",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/4671202319",
       "ads.rewarded_unit_id": ""
     },
@@ -357,6 +373,7 @@
       "ads.interstitial_session_cap": 10,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/5079468256",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/5635965470",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/3766386588",
       "ads.rewarded_unit_id": ""
     },
@@ -370,6 +387,7 @@
       "ads.interstitial_session_cap": 10,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/5472355503",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/5456836223",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/4159273832",
       "ads.rewarded_unit_id": ""
     },
@@ -383,6 +401,7 @@
       "ads.interstitial_session_cap": 10,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/4949100576",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/8889353773",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/3636018906",
       "ads.rewarded_unit_id": ""
     },
@@ -396,8 +415,9 @@
       "ads.interstitial_session_cap": 12,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/9273166039",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/7576272108",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/4020839357",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/4020839357"
+      "ads.rewarded_unit_id": ""
     },
     "com.gjam.neetbiology": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~9442983580",
@@ -409,6 +429,7 @@
       "ads.interstitial_session_cap": 8,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/9665041521",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/9819292068",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/1533110497",
       "ads.rewarded_unit_id": ""
     },
@@ -422,6 +443,7 @@
       "ads.interstitial_session_cap": 8,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/5641208057",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/2236610669",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/7342473391",
       "ads.rewarded_unit_id": ""
     },
@@ -439,6 +461,7 @@
       "ads.interstitial_session_cap": 3,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/2201484470",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/8598004882",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/9888402803",
       "ads.rewarded_unit_id": "",
       "ux.rate_prompt_after_screens": 5
@@ -453,6 +476,7 @@
       "ads.interstitial_session_cap": 5,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/2261733222",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/8821366161",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/7906947158",
       "ads.rewarded_unit_id": ""
     },
@@ -466,7 +490,22 @@
       "ads.interstitial_session_cap": 8,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/5019219508",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/4145464414",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/3706137832",
+      "ads.rewarded_unit_id": ""
+    },
+    "com.gjam.sharekaro": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~3063136433",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/6205139240",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/4310133879",
+      "ads.interstitial_button_cooldown_sec": 18,
+      "ads.interstitial_every_n_screens": 2,
+      "ads.interstitial_session_cap": 14,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/8831302585",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/4403313855",
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/5331041271",
       "ads.rewarded_unit_id": ""
     },
     "com.gjam.sipcalculator": {
@@ -479,6 +518,7 @@
       "ads.interstitial_session_cap": 5,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/7906436403",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/9425711255",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/3967191392",
       "ads.rewarded_unit_id": ""
     },
@@ -492,6 +532,7 @@
       "ads.interstitial_session_cap": 8,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/3642237859",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/4882121153",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/7714864714",
       "ads.rewarded_unit_id": ""
     },
@@ -505,6 +546,7 @@
       "ads.interstitial_session_cap": 3,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/3072912124",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/7508284492",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/1307718558",
       "ads.rewarded_unit_id": "",
       "ux.rate_prompt_after_screens": 5
@@ -519,6 +561,7 @@
       "ads.interstitial_session_cap": 4,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/7453811152",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/4550948667",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/6402293798",
       "ads.rewarded_unit_id": ""
     },
@@ -532,6 +575,7 @@
       "ads.interstitial_session_cap": 3,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/2070161535",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/1926495189",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/5089212123",
       "ads.rewarded_unit_id": "",
       "ux.rate_prompt_after_screens": 5
@@ -546,6 +590,7 @@
       "ads.interstitial_session_cap": 8,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/2612890896",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/6762718036",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/8738144686",
       "ads.rewarded_unit_id": ""
     },
@@ -559,6 +604,7 @@
       "ads.interstitial_session_cap": 12,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/6333363265",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/6635896388",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/6241863920",
       "ads.rewarded_unit_id": ""
     },
@@ -572,6 +618,7 @@
       "ads.interstitial_session_cap": 12,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/1287930469",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/8214027357",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/7470195431",
       "ads.rewarded_unit_id": ""
     },
@@ -585,6 +632,7 @@
       "ads.interstitial_session_cap": 14,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/1967714012",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/1930364617",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/9654632341",
       "ads.rewarded_unit_id": ""
     },
@@ -598,6 +646,7 @@
       "ads.interstitial_session_cap": 14,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/2104453574",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/5182043059",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/9200640115",
       "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/5813769303"
     },
@@ -611,6 +660,7 @@
       "ads.interstitial_session_cap": 14,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/1126921004",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/9921026542",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/4668534592",
       "ads.rewarded_unit_id": ""
     },
@@ -624,6 +674,7 @@
       "ads.interstitial_session_cap": 12,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/3660462848",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/2131834737",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/5676252096",
       "ads.rewarded_unit_id": ""
     },
@@ -637,6 +688,7 @@
       "ads.interstitial_session_cap": 12,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/5778673964",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/1541641946",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/8170857412",
       "ads.rewarded_unit_id": ""
     },
@@ -650,6 +702,7 @@
       "ads.interstitial_session_cap": 12,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/8198777576",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/9780934470",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/1284895188",
       "ads.rewarded_unit_id": ""
     },
@@ -663,8 +716,9 @@
       "ads.interstitial_session_cap": 14,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/2363533944",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/2515517119",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/9952425525",
-      "ads.rewarded_unit_id": ""
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/8639343852"
     },
     "com.japangor.learnjs": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~8494754068",
@@ -676,6 +730,7 @@
       "ads.interstitial_session_cap": 12,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/6764608105",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/9911086554",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/1205159665",
       "ads.rewarded_unit_id": ""
     },
@@ -689,6 +744,7 @@
       "ads.interstitial_session_cap": 12,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/5492723185",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/1777150513",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/1859610259",
       "ads.rewarded_unit_id": ""
     },
@@ -696,14 +752,15 @@
       "ads.admob_app_id": "ca-app-pub-3483870164836220~6533158293",
       "ads.app_open_cooldown_sec": 10800,
       "ads.app_open_unit_id": "ca-app-pub-3483870164836220/2380686138",
-      "ads.banner_unit_id": "ca-app-pub-3483870164836220/7253738866",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/1761012061",
       "ads.interstitial_button_cooldown_sec": 20,
       "ads.interstitial_every_n_screens": 2,
       "ads.interstitial_session_cap": 12,
-      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/9130613079",
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/1635645712",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/9420131966",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/3693767806",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/3693767806"
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/4131846928"
     },
     "com.japangor.learntocodec": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~6844644946",
@@ -715,6 +772,7 @@
       "ads.interstitial_session_cap": 12,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/1016074515",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/6354984922",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/8696773894",
       "ads.rewarded_unit_id": ""
     },
@@ -728,6 +786,7 @@
       "ads.interstitial_session_cap": 14,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/3291204862",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/9808854637",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/6200978231",
       "ads.rewarded_unit_id": ""
     },
@@ -741,6 +800,7 @@
       "ads.interstitial_session_cap": 14,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/8023289812",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/7859638284",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/1284331502",
       "ads.rewarded_unit_id": ""
     },
@@ -754,7 +814,22 @@
       "ads.interstitial_session_cap": 12,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/4102630212",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/5678037934",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/5955757616",
+      "ads.rewarded_unit_id": ""
+    },
+    "in.gjam.gupshupguru.twa": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~6549658132",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/9287502115",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/8221832455",
+      "ads.interstitial_button_cooldown_sec": 18,
+      "ads.interstitial_every_n_screens": 2,
+      "ads.interstitial_session_cap": 14,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/2913665457",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/8107050296",
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/1600583787",
       "ads.rewarded_unit_id": ""
     },
     "parivahan.com": {
@@ -767,6 +842,7 @@
       "ads.interstitial_session_cap": 14,
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/4794491249",
       "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/6536658187",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/7849739852",
       "ads.rewarded_unit_id": ""
     }
