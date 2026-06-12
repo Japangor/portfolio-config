@@ -832,6 +832,23 @@
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/1600583787",
       "ads.rewarded_unit_id": ""
     },
+    "japangor.slide": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~1746045403",
+      "ads.app_open_cooldown_sec": 1800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/8761195991",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/8746404034",
+      "ads.interstitial_button_cooldown_sec": 20,
+      "ads.interstitial_cooldown_sec": 30,
+      "ads.interstitial_every_n_screens": 1,
+      "ads.interstitial_session_cap": 25,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/6914447614",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/9192108669",
+      "ads.rewarded_interstitial_enabled": true,
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/6159769145",
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/6159769145",
+      "ux.rate_prompt_after_screens": 12
+    },
     "parivahan.com": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~8360041597",
       "ads.app_open_cooldown_sec": 10800,
