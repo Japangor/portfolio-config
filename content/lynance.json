@@ -1,0 +1,1768 @@
+{
+  "appId": "com.gjam.lynance",
+  "title": "Lynance: Learn Finance",
+  "subject": "Personal finance, investing, and money mastery",
+  "version": 2,
+  "modules": [
+    {
+      "id": "budgeting",
+      "title": "Budgeting & Cash Flow",
+      "subtitle": "Take control of where your money goes",
+      "lessons": [
+        {
+          "id": "bud-1",
+          "title": "Why Budgeting Works",
+          "summary": "The mindset and math behind a budget.",
+          "estimatedMinutes": 6,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Why Budgeting Works",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "A budget is simply a plan for your money before the month begins. Without one, money leaks out through dozens of small, forgettable decisions. With one, every rupee has a job."
+            },
+            {
+              "type": "key_takeaways",
+              "items": [
+                "A budget is permission to spend, not a restriction",
+                "Track for 30 days before optimising",
+                "Pay yourself first: save before you spend"
+              ]
+            },
+            {
+              "type": "definition_grid",
+              "items": [
+                {
+                  "term": "Income",
+                  "def": "All money you receive in a period"
+                },
+                {
+                  "term": "Fixed cost",
+                  "def": "Same every month: rent, EMI, subscriptions"
+                },
+                {
+                  "term": "Variable cost",
+                  "def": "Changes monthly: food, fuel, shopping"
+                },
+                {
+                  "term": "Discretionary",
+                  "def": "Wants you can pause: dining out, gadgets"
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "kind": "success",
+              "text": "Track every expense for one month. You cannot improve what you don't measure.",
+              "title": "First action"
+            },
+            {
+              "type": "quiz_set",
+              "title": "Check your understanding",
+              "items": [
+                {
+                  "q": "What does 'pay yourself first' mean?",
+                  "opts": [
+                    "Spend on wants first",
+                    "Save before spending on anything else",
+                    "Pay all bills first",
+                    "Pay debt first"
+                  ],
+                  "answer": 1,
+                  "explain": "Automating savings before you spend protects your goals."
+                },
+                {
+                  "q": "Which is a fixed cost?",
+                  "opts": [
+                    "Groceries",
+                    "Dining out",
+                    "Rent",
+                    "Fuel"
+                  ],
+                  "answer": 2,
+                  "explain": "Rent is the same each month, so it's fixed."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bud-2",
+          "title": "The 50/30/20 Rule",
+          "summary": "A simple split that fits most incomes.",
+          "estimatedMinutes": 5,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "The 50/30/20 Rule",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "Divide your post-tax income into three buckets. It's not perfect, but it's a fast, durable default."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Bucket",
+                "Share",
+                "Examples"
+              ],
+              "rows": [
+                [
+                  "Needs",
+                  "50%",
+                  "Rent, food, utilities, EMIs"
+                ],
+                [
+                  "Wants",
+                  "30%",
+                  "Travel, dining, hobbies"
+                ],
+                [
+                  "Savings",
+                  "20%",
+                  "Investments, emergency fund, extra debt"
+                ]
+              ]
+            },
+            {
+              "type": "formula",
+              "latex": "Savings = Income - Needs - Wants"
+            },
+            {
+              "type": "tip",
+              "text": "If 50% can't cover your needs, your fixed costs are too high — attack the biggest one first (usually rent or EMIs)."
+            },
+            {
+              "type": "mcq",
+              "q": "On a take-home of 50,000, how much should go to savings under 50/30/20?",
+              "opts": [
+                "5,000",
+                "10,000",
+                "15,000",
+                "20,000"
+              ],
+              "answer": 1,
+              "explain": "20% of 50,000 = 10,000."
+            }
+          ]
+        },
+        {
+          "id": "bud-3",
+          "title": "Zero-Based Budgeting",
+          "summary": "Give every rupee a job.",
+          "estimatedMinutes": 6,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Zero-Based Budgeting",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "Income minus expenses minus savings should equal exactly zero. Every rupee is assigned, so nothing drifts away unnoticed."
+            },
+            {
+              "type": "step_list",
+              "steps": [
+                {
+                  "title": "List income",
+                  "body": "Total all take-home pay for the month."
+                },
+                {
+                  "title": "Assign categories",
+                  "body": "Allocate down to needs, wants, savings."
+                },
+                {
+                  "title": "Reach zero",
+                  "body": "Keep assigning until income - allocations = 0."
+                },
+                {
+                  "title": "Adjust weekly",
+                  "body": "Move money between categories as life happens."
+                }
+              ]
+            },
+            {
+              "type": "accordion",
+              "items": [
+                {
+                  "q": "Isn't zero-based budgeting tedious?",
+                  "a": "Only the first month. After that you copy last month and tweak."
+                },
+                {
+                  "q": "What about irregular income?",
+                  "a": "Budget on your lowest expected month; treat extra as a bonus to save."
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Zero-based budget",
+              "back": "Income - allocations = 0; every rupee assigned"
+            }
+          ]
+        },
+        {
+          "id": "bud-4",
+          "title": "Building an Emergency Fund",
+          "summary": "Your financial shock absorber.",
+          "estimatedMinutes": 5,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Building an Emergency Fund",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "An emergency fund is cash set aside for true emergencies — job loss, medical bills, urgent repairs. It keeps you out of high-interest debt."
+            },
+            {
+              "type": "key_takeaways",
+              "items": [
+                "Target 3–6 months of essential expenses",
+                "Keep it liquid: savings account or liquid fund",
+                "Start with a 25,000 mini-fund, then grow it"
+              ]
+            },
+            {
+              "type": "callout",
+              "kind": "warning",
+              "text": "An emergency fund is insurance, not an investment. Its job is to be boring and available.",
+              "title": "Mindset"
+            },
+            {
+              "type": "mcq",
+              "q": "How many months of essential expenses should an emergency fund cover?",
+              "opts": [
+                "1 month",
+                "3–6 months",
+                "12 months",
+                "24 months"
+              ],
+              "answer": 1,
+              "explain": "3–6 months is the standard guidance for most people."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saving",
+      "title": "Saving & Interest",
+      "subtitle": "Make your idle money earn",
+      "lessons": [
+        {
+          "id": "sav-1",
+          "title": "Simple vs Compound Interest",
+          "summary": "The most important idea in finance.",
+          "estimatedMinutes": 6,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Simple vs Compound Interest",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "Simple interest is earned only on your principal. Compound interest is earned on principal plus all previously earned interest — interest on interest."
+            },
+            {
+              "type": "formula",
+              "latex": "Simple: A = P(1 + rt)"
+            },
+            {
+              "type": "formula",
+              "latex": "Compound: A = P(1 + r/n)^(nt)"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Year",
+                "Simple @10% on 10,000",
+                "Compound @10% on 10,000"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "11,000",
+                  "11,000"
+                ],
+                [
+                  "5",
+                  "15,000",
+                  "16,105"
+                ],
+                [
+                  "10",
+                  "20,000",
+                  "25,937"
+                ],
+                [
+                  "20",
+                  "30,000",
+                  "67,275"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "kind": "success",
+              "text": "Over 20 years, compounding more than doubles the simple-interest result. Time is the key ingredient.",
+              "title": "The magic"
+            },
+            {
+              "type": "quiz_set",
+              "title": "Interest quiz",
+              "items": [
+                {
+                  "q": "Compound interest is earned on…",
+                  "opts": [
+                    "Only the principal",
+                    "Principal plus accumulated interest",
+                    "Only the interest",
+                    "The bank's profit"
+                  ],
+                  "answer": 1,
+                  "explain": "That 'interest on interest' is what compounds."
+                },
+                {
+                  "q": "What single factor most amplifies compounding?",
+                  "opts": [
+                    "Luck",
+                    "Time",
+                    "Fees",
+                    "Inflation"
+                  ],
+                  "answer": 1,
+                  "explain": "The longer money compounds, the more dramatic the growth."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sav-2",
+          "title": "The Rule of 72",
+          "summary": "Estimate doubling time in your head.",
+          "estimatedMinutes": 4,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "The Rule of 72",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "Divide 72 by the annual return to estimate how many years it takes your money to double."
+            },
+            {
+              "type": "formula",
+              "latex": "Years to double ≈ 72 / rate(%)"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Return",
+                "Years to double"
+              ],
+              "rows": [
+                [
+                  "6%",
+                  "12"
+                ],
+                [
+                  "8%",
+                  "9"
+                ],
+                [
+                  "12%",
+                  "6"
+                ],
+                [
+                  "18%",
+                  "4"
+                ]
+              ]
+            },
+            {
+              "type": "mcq",
+              "q": "At 9% annual return, roughly how long to double your money?",
+              "opts": [
+                "4 years",
+                "6 years",
+                "8 years",
+                "12 years"
+              ],
+              "answer": 2,
+              "explain": "72 / 9 = 8 years."
+            }
+          ]
+        },
+        {
+          "id": "sav-3",
+          "title": "Inflation: The Silent Tax",
+          "summary": "Why cash loses value.",
+          "estimatedMinutes": 5,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Inflation: The Silent Tax",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "Inflation is the rise in prices over time. At 6% inflation, money loses about half its purchasing power in 12 years."
+            },
+            {
+              "type": "formula",
+              "latex": "Real return = Nominal return - Inflation"
+            },
+            {
+              "type": "tip",
+              "text": "If your savings account pays 3% and inflation is 6%, you are losing 3% of purchasing power every year by staying in cash."
+            },
+            {
+              "type": "flashcard",
+              "front": "Real return",
+              "back": "Nominal return minus inflation"
+            },
+            {
+              "type": "mcq",
+              "q": "Savings pays 4%, inflation is 7%. Your real return is…",
+              "opts": [
+                "+11%",
+                "+3%",
+                "-3%",
+                "0%"
+              ],
+              "answer": 2,
+              "explain": "4% - 7% = -3%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "investing",
+      "title": "Investing Foundations",
+      "subtitle": "Put your money to work for the long run",
+      "lessons": [
+        {
+          "id": "inv-1",
+          "title": "Risk and Return",
+          "summary": "Why higher returns demand higher risk.",
+          "estimatedMinutes": 6,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Risk and Return",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "Return is the reward; risk is the uncertainty of that reward. There is no free lunch — durable higher returns require accepting more volatility."
+            },
+            {
+              "type": "definition_grid",
+              "items": [
+                {
+                  "term": "Volatility",
+                  "def": "How much a price swings up and down"
+                },
+                {
+                  "term": "Drawdown",
+                  "def": "Peak-to-trough drop in value"
+                },
+                {
+                  "term": "Liquidity",
+                  "def": "How fast you can sell at fair price"
+                },
+                {
+                  "term": "Risk premium",
+                  "def": "Extra return for taking on risk"
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Asset",
+                "Typical risk",
+                "Typical long-run return"
+              ],
+              "rows": [
+                [
+                  "Savings/FD",
+                  "Very low",
+                  "3–7%"
+                ],
+                [
+                  "Bonds",
+                  "Low–medium",
+                  "5–8%"
+                ],
+                [
+                  "Equity (stocks)",
+                  "High",
+                  "10–14%"
+                ],
+                [
+                  "Crypto",
+                  "Very high",
+                  "Highly variable"
+                ]
+              ]
+            },
+            {
+              "type": "quiz_set",
+              "title": "Risk quiz",
+              "items": [
+                {
+                  "q": "A risk premium is…",
+                  "opts": [
+                    "A type of insurance",
+                    "Extra return for taking on risk",
+                    "A government tax",
+                    "A broker fee"
+                  ],
+                  "answer": 1,
+                  "explain": "Investors demand extra return to bear extra risk."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "inv-2",
+          "title": "Diversification",
+          "summary": "Don't put all your eggs in one basket.",
+          "estimatedMinutes": 5,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Diversification",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "Spreading money across many assets reduces the impact of any single one failing. It's the closest thing to a free lunch in investing."
+            },
+            {
+              "type": "key_takeaways",
+              "items": [
+                "Diversify across assets, sectors, and geographies",
+                "An index fund instantly diversifies across hundreds of stocks",
+                "Diversification reduces risk without necessarily reducing return"
+              ]
+            },
+            {
+              "type": "callout",
+              "kind": "info",
+              "text": "Correlation matters: assets that fall together don't diversify. Mix things that behave differently.",
+              "title": "Nuance"
+            },
+            {
+              "type": "mcq",
+              "q": "The main benefit of diversification is…",
+              "opts": [
+                "Guaranteed profit",
+                "Lower risk from any single failure",
+                "Higher fees",
+                "Avoiding all losses"
+              ],
+              "answer": 1,
+              "explain": "It reduces the damage any one holding can do."
+            }
+          ]
+        },
+        {
+          "id": "inv-3",
+          "title": "Dollar-Cost Averaging (SIP)",
+          "summary": "Invest steadily, ignore timing.",
+          "estimatedMinutes": 5,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Rupee-Cost Averaging (SIP)",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "Investing a fixed amount on a schedule buys more units when prices are low and fewer when high, smoothing your average cost and removing the need to time the market."
+            },
+            {
+              "type": "step_list",
+              "steps": [
+                {
+                  "title": "Pick an amount",
+                  "body": "Choose a monthly amount you won't miss."
+                },
+                {
+                  "title": "Automate it",
+                  "body": "Set an auto-debit SIP into an index fund."
+                },
+                {
+                  "title": "Stay consistent",
+                  "body": "Keep investing through ups and downs."
+                },
+                {
+                  "title": "Increase yearly",
+                  "body": "Step up the amount as income grows."
+                }
+              ]
+            },
+            {
+              "type": "formula",
+              "latex": "Avg cost = Total invested / Total units bought"
+            },
+            {
+              "type": "flashcard",
+              "front": "SIP",
+              "back": "Systematic Investment Plan — fixed amount invested on a schedule"
+            }
+          ]
+        },
+        {
+          "id": "inv-4",
+          "title": "Asset Allocation",
+          "summary": "The decision that drives most returns.",
+          "estimatedMinutes": 6,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Asset Allocation",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "Asset allocation is how you split money across stocks, bonds, and cash. Studies show it explains the majority of a portfolio's long-term result — far more than individual stock picking."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Profile",
+                "Equity",
+                "Debt",
+                "Cash"
+              ],
+              "rows": [
+                [
+                  "Aggressive (young)",
+                  "80%",
+                  "15%",
+                  "5%"
+                ],
+                [
+                  "Balanced",
+                  "60%",
+                  "30%",
+                  "10%"
+                ],
+                [
+                  "Conservative (near goal)",
+                  "30%",
+                  "55%",
+                  "15%"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "text": "A classic rough rule: equity % ≈ 100 minus your age. Adjust for your own risk tolerance and goals."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Allocation quiz",
+              "items": [
+                {
+                  "q": "Asset allocation mainly refers to…",
+                  "opts": [
+                    "Which broker to use",
+                    "The split across stocks/bonds/cash",
+                    "When to sell",
+                    "Your tax bracket"
+                  ],
+                  "answer": 1,
+                  "explain": "It's the mix of asset classes."
+                },
+                {
+                  "q": "A 30-year-old using the '100 minus age' rule targets what equity %?",
+                  "opts": [
+                    "30%",
+                    "50%",
+                    "70%",
+                    "100%"
+                  ],
+                  "answer": 2,
+                  "explain": "100 - 30 = 70%."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "market",
+      "title": "Stock Market Basics",
+      "subtitle": "How shares, exchanges, and orders work",
+      "lessons": [
+        {
+          "id": "mkt-1",
+          "title": "What Is a Stock?",
+          "summary": "Owning a slice of a business.",
+          "estimatedMinutes": 5,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "What Is a Stock?",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "A stock (or share) is a unit of ownership in a company. Own one share and you own a tiny fraction of the entire business — its assets, profits, and future."
+            },
+            {
+              "type": "definition_grid",
+              "items": [
+                {
+                  "term": "Share",
+                  "def": "A unit of ownership in a company"
+                },
+                {
+                  "term": "Dividend",
+                  "def": "A share of profit paid to shareholders"
+                },
+                {
+                  "term": "Market cap",
+                  "def": "Share price × number of shares"
+                },
+                {
+                  "term": "IPO",
+                  "def": "First sale of shares to the public"
+                }
+              ]
+            },
+            {
+              "type": "formula",
+              "latex": "Market cap = Share price × Shares outstanding"
+            },
+            {
+              "type": "mcq",
+              "q": "If a share is 200 and there are 1,000,000 shares, market cap is…",
+              "opts": [
+                "200,000",
+                "2,00,00,000 (20 crore)",
+                "2,000",
+                "20,000"
+              ],
+              "answer": 1,
+              "explain": "200 × 1,000,000 = 20 crore."
+            }
+          ]
+        },
+        {
+          "id": "mkt-2",
+          "title": "Exchanges & Indices",
+          "summary": "Where stocks trade and how we measure them.",
+          "estimatedMinutes": 5,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Exchanges & Indices",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "Stocks trade on exchanges like the NSE and BSE. An index such as the Nifty 50 or Sensex tracks a basket of large companies to summarise the market's direction."
+            },
+            {
+              "type": "definition_grid",
+              "items": [
+                {
+                  "term": "Exchange",
+                  "def": "Marketplace where shares are bought and sold"
+                },
+                {
+                  "term": "Index",
+                  "def": "A basket of stocks tracked as one number"
+                },
+                {
+                  "term": "Nifty 50",
+                  "def": "Index of 50 large Indian companies"
+                },
+                {
+                  "term": "Sensex",
+                  "def": "Index of 30 large BSE companies"
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "Index fund",
+              "back": "A fund that simply mirrors an index like the Nifty 50"
+            }
+          ]
+        },
+        {
+          "id": "mkt-3",
+          "title": "Order Types",
+          "summary": "Market, limit, stop — say what you mean.",
+          "estimatedMinutes": 5,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Order Types",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "How you place an order controls the price you get and the risk you take."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Order",
+                "What it does"
+              ],
+              "rows": [
+                [
+                  "Market",
+                  "Buy/sell now at the best available price"
+                ],
+                [
+                  "Limit",
+                  "Execute only at your price or better"
+                ],
+                [
+                  "Stop-loss",
+                  "Trigger a sell if price falls to a level"
+                ],
+                [
+                  "GTT",
+                  "Good-till-triggered standing instruction"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "kind": "warning",
+              "text": "Use limit orders for illiquid stocks so you don't get a nasty fill.",
+              "title": "Pro tip"
+            },
+            {
+              "type": "quiz_set",
+              "title": "Orders quiz",
+              "items": [
+                {
+                  "q": "A limit order guarantees…",
+                  "opts": [
+                    "Execution",
+                    "Your price or better, but not execution",
+                    "The lowest price ever",
+                    "No fees"
+                  ],
+                  "answer": 1,
+                  "explain": "Limit orders control price, not certainty of filling."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "funds",
+      "title": "Mutual Funds & ETFs",
+      "subtitle": "Pooled investing made simple",
+      "lessons": [
+        {
+          "id": "fnd-1",
+          "title": "Mutual Funds 101",
+          "summary": "Professional pooling of money.",
+          "estimatedMinutes": 5,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Mutual Funds 101",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "A mutual fund pools money from many investors and a manager invests it according to a stated strategy. You buy units; their value is the NAV (net asset value)."
+            },
+            {
+              "type": "definition_grid",
+              "items": [
+                {
+                  "term": "NAV",
+                  "def": "Per-unit value of the fund"
+                },
+                {
+                  "term": "AUM",
+                  "def": "Total assets the fund manages"
+                },
+                {
+                  "term": "Expense ratio",
+                  "def": "Annual fee as a % of your investment"
+                },
+                {
+                  "term": "Exit load",
+                  "def": "Fee for selling within a set period"
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "kind": "warning",
+              "text": "Fees compound against you. A 1% higher expense ratio can cost lakhs over decades.",
+              "title": "Watch fees"
+            },
+            {
+              "type": "mcq",
+              "q": "NAV stands for…",
+              "opts": [
+                "New Asset Value",
+                "Net Asset Value",
+                "Nominal Annual Value",
+                "Net Annual Value"
+              ],
+              "answer": 1,
+              "explain": "Net Asset Value, the per-unit price."
+            }
+          ]
+        },
+        {
+          "id": "fnd-2",
+          "title": "Index Funds & ETFs",
+          "summary": "Low-cost, market-matching investing.",
+          "estimatedMinutes": 5,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Index Funds & ETFs",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "Index funds and ETFs aim to match an index rather than beat it. They charge tiny fees and, over the long run, beat most active managers precisely because of those low costs."
+            },
+            {
+              "type": "key_takeaways",
+              "items": [
+                "Index funds match the market at very low cost",
+                "ETFs trade like stocks during market hours",
+                "Most active funds underperform their index after fees"
+              ]
+            },
+            {
+              "type": "accordion",
+              "items": [
+                {
+                  "q": "ETF vs index fund — what's the difference?",
+                  "a": "Both track an index. ETFs trade intraday like stocks; index mutual funds transact once daily at NAV."
+                },
+                {
+                  "q": "Are index funds boring?",
+                  "a": "Yes — and that's the point. Boring and cheap usually wins."
+                }
+              ]
+            },
+            {
+              "type": "quiz_set",
+              "title": "Funds quiz",
+              "items": [
+                {
+                  "q": "Why do index funds often beat active funds long term?",
+                  "opts": [
+                    "Luck",
+                    "Lower fees",
+                    "Insider info",
+                    "More trading"
+                  ],
+                  "answer": 1,
+                  "explain": "Low costs compound in your favour."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "debt",
+      "title": "Debt & Credit",
+      "subtitle": "Borrow smart, avoid traps",
+      "lessons": [
+        {
+          "id": "debt-1",
+          "title": "Good Debt vs Bad Debt",
+          "summary": "Not all borrowing is equal.",
+          "estimatedMinutes": 5,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Good Debt vs Bad Debt",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "Good debt helps you build wealth or income (a reasonable home loan, education). Bad debt funds depreciating wants at high interest (credit-card revolving balances, payday loans)."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Type",
+                "Typical rate",
+                "Verdict"
+              ],
+              "rows": [
+                [
+                  "Home loan",
+                  "8–9%",
+                  "Often good"
+                ],
+                [
+                  "Education loan",
+                  "9–12%",
+                  "Can be good"
+                ],
+                [
+                  "Car loan",
+                  "9–12%",
+                  "Neutral"
+                ],
+                [
+                  "Credit card revolve",
+                  "36–48%",
+                  "Bad"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "kind": "warning",
+              "text": "Credit-card interest at ~40% will out-run almost any investment. Clear it first.",
+              "title": "Priority"
+            },
+            {
+              "type": "mcq",
+              "q": "Which is usually 'bad debt'?",
+              "opts": [
+                "Home loan",
+                "Education loan",
+                "Revolving credit-card balance",
+                "Reasonable car loan"
+              ],
+              "answer": 2,
+              "explain": "Its very high interest erodes wealth fast."
+            }
+          ]
+        },
+        {
+          "id": "debt-2",
+          "title": "Credit Scores",
+          "summary": "How lenders judge you.",
+          "estimatedMinutes": 5,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Credit Scores",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "A credit score (like CIBIL, 300–900) predicts how reliably you repay. A higher score unlocks lower interest rates and faster approvals."
+            },
+            {
+              "type": "key_takeaways",
+              "items": [
+                "Pay every bill on time — payment history matters most",
+                "Keep credit utilisation below 30%",
+                "Don't close your oldest card; length of history helps"
+              ]
+            },
+            {
+              "type": "definition_grid",
+              "items": [
+                {
+                  "term": "Utilisation",
+                  "def": "Balance owed ÷ total credit limit"
+                },
+                {
+                  "term": "Hard enquiry",
+                  "def": "A lender checking your score for a new loan"
+                },
+                {
+                  "term": "Tenure",
+                  "def": "Age of your credit accounts"
+                }
+              ]
+            },
+            {
+              "type": "quiz_set",
+              "title": "Credit quiz",
+              "items": [
+                {
+                  "q": "Healthy credit utilisation is generally…",
+                  "opts": [
+                    "Below 30%",
+                    "Around 50%",
+                    "70–80%",
+                    "100%"
+                  ],
+                  "answer": 0,
+                  "explain": "Under 30% signals you're not over-reliant on credit."
+                },
+                {
+                  "q": "The biggest driver of a credit score is…",
+                  "opts": [
+                    "Income",
+                    "On-time payment history",
+                    "Number of cards",
+                    "Age"
+                  ],
+                  "answer": 1,
+                  "explain": "Consistently paying on time matters most."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "debt-3",
+          "title": "Avalanche vs Snowball",
+          "summary": "Two ways to crush debt.",
+          "estimatedMinutes": 5,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Avalanche vs Snowball",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "Both methods pay minimums on everything, then attack one debt with extra cash."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Method",
+                "Attack order",
+                "Best for"
+              ],
+              "rows": [
+                [
+                  "Avalanche",
+                  "Highest interest first",
+                  "Lowest total interest"
+                ],
+                [
+                  "Snowball",
+                  "Smallest balance first",
+                  "Quick wins & motivation"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "text": "Avalanche is mathematically cheaper; snowball is psychologically easier. The best method is the one you'll stick to."
+            },
+            {
+              "type": "flashcard",
+              "front": "Debt avalanche",
+              "back": "Pay highest-interest debt first to minimise total interest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "retire",
+      "title": "Retirement & Goals",
+      "subtitle": "Plan for the long game",
+      "lessons": [
+        {
+          "id": "ret-1",
+          "title": "Start Early: The Cost of Waiting",
+          "summary": "Why your 20s matter most.",
+          "estimatedMinutes": 6,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Start Early: The Cost of Waiting",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "Because of compounding, money invested in your 20s does far more heavy lifting than money invested later — even if the later amount is much larger."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Investor",
+                "Invests",
+                "Value at 60 (≈10%/yr)"
+              ],
+              "rows": [
+                [
+                  "Early Anya",
+                  "5,000/mo from 25–35, then stops",
+                  "Very large"
+                ],
+                [
+                  "Late Riya",
+                  "5,000/mo from 35–60",
+                  "Smaller despite paying more"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "kind": "success",
+              "text": "Anya invested for 10 years and stopped; Riya invested for 25 years. Anya often still wins — time beats amount.",
+              "title": "Key lesson"
+            },
+            {
+              "type": "mcq",
+              "q": "The biggest advantage of investing early is…",
+              "opts": [
+                "Lower taxes",
+                "More years of compounding",
+                "Higher salary",
+                "Cheaper stocks"
+              ],
+              "answer": 1,
+              "explain": "Extra decades of compounding dominate."
+            }
+          ]
+        },
+        {
+          "id": "ret-2",
+          "title": "Retirement Accounts (EPF/NPS/PPF)",
+          "summary": "Tax-advantaged building blocks.",
+          "estimatedMinutes": 5,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Retirement Accounts",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "Dedicated accounts give tax breaks for locking money up until retirement. In India the common ones are EPF, PPF, and NPS."
+            },
+            {
+              "type": "definition_grid",
+              "items": [
+                {
+                  "term": "EPF",
+                  "def": "Employer + employee retirement contribution"
+                },
+                {
+                  "term": "PPF",
+                  "def": "15-year govt-backed tax-free savings"
+                },
+                {
+                  "term": "NPS",
+                  "def": "Market-linked national pension scheme"
+                },
+                {
+                  "term": "Vesting",
+                  "def": "When employer contributions become yours"
+                }
+              ]
+            },
+            {
+              "type": "flashcard",
+              "front": "PPF",
+              "back": "Public Provident Fund — 15-yr, tax-free, government-backed"
+            }
+          ]
+        },
+        {
+          "id": "ret-3",
+          "title": "How Much Do You Need?",
+          "summary": "The 25x and 4% rules.",
+          "estimatedMinutes": 5,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "How Much Do You Need?",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "A common target: save 25× your annual expenses, then withdraw about 4% per year. This 'financial independence' number scales with your lifestyle, not your income."
+            },
+            {
+              "type": "formula",
+              "latex": "FI number = Annual expenses × 25"
+            },
+            {
+              "type": "formula",
+              "latex": "Safe withdrawal ≈ Portfolio × 4%"
+            },
+            {
+              "type": "mcq",
+              "q": "If you spend 6,00,000 a year, your rough FI number is…",
+              "opts": [
+                "60 lakh",
+                "1.2 crore",
+                "1.5 crore",
+                "3 crore"
+              ],
+              "answer": 2,
+              "explain": "6,00,000 × 25 = 1.5 crore."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "behavior",
+      "title": "Behavioral Finance",
+      "subtitle": "Master the investor in the mirror",
+      "lessons": [
+        {
+          "id": "beh-1",
+          "title": "Common Biases",
+          "summary": "Your brain's expensive shortcuts.",
+          "estimatedMinutes": 6,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Common Biases",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "Most investing mistakes are emotional, not analytical. Naming your biases is the first step to beating them."
+            },
+            {
+              "type": "definition_grid",
+              "items": [
+                {
+                  "term": "Loss aversion",
+                  "def": "Losses hurt about twice as much as gains feel good"
+                },
+                {
+                  "term": "Recency bias",
+                  "def": "Over-weighting what just happened"
+                },
+                {
+                  "term": "Herding",
+                  "def": "Following the crowd into bubbles"
+                },
+                {
+                  "term": "Confirmation bias",
+                  "def": "Seeking info that agrees with you"
+                },
+                {
+                  "term": "Anchoring",
+                  "def": "Fixating on an irrelevant reference price"
+                },
+                {
+                  "term": "FOMO",
+                  "def": "Buying out of fear of missing out"
+                }
+              ]
+            },
+            {
+              "type": "quiz_set",
+              "title": "Bias quiz",
+              "items": [
+                {
+                  "q": "Selling in a panic crash is driven mostly by…",
+                  "opts": [
+                    "Analysis",
+                    "Loss aversion & herding",
+                    "Tax planning",
+                    "Dividends"
+                  ],
+                  "answer": 1,
+                  "explain": "Fear of further loss plus crowd behaviour."
+                },
+                {
+                  "q": "Buying a hot stock only because it doubled last month is…",
+                  "opts": [
+                    "Value investing",
+                    "Recency bias / FOMO",
+                    "Diversification",
+                    "Rebalancing"
+                  ],
+                  "answer": 1,
+                  "explain": "Recent performance isn't a strategy."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "beh-2",
+          "title": "Time in the Market",
+          "summary": "Why timing fails.",
+          "estimatedMinutes": 5,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Time in the Market > Timing the Market",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "Missing just a handful of the market's best days — which often cluster right after the worst days — can devastate long-term returns. Staying invested usually beats jumping in and out."
+            },
+            {
+              "type": "callout",
+              "kind": "warning",
+              "text": "Investors who panic-sell crashes tend to also miss the rebounds. The recovery often comes fast.",
+              "title": "The trap"
+            },
+            {
+              "type": "flashcard",
+              "front": "Mantra",
+              "back": "Time IN the market beats TIMING the market"
+            },
+            {
+              "type": "mcq",
+              "q": "Why is market timing so dangerous?",
+              "opts": [
+                "Fees are zero",
+                "Best days often follow worst days",
+                "Markets never fall",
+                "Dividends stop"
+              ],
+              "answer": 1,
+              "explain": "Miss the rebound and your returns collapse."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tax",
+      "title": "Taxes for Investors",
+      "subtitle": "Keep more of what you earn",
+      "lessons": [
+        {
+          "id": "tax-1",
+          "title": "Capital Gains Basics",
+          "summary": "Short-term vs long-term.",
+          "estimatedMinutes": 5,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Capital Gains Basics",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "A capital gain is profit from selling an asset for more than you paid. How long you held it usually changes the tax rate — long-term holding is generally taxed more gently."
+            },
+            {
+              "type": "definition_grid",
+              "items": [
+                {
+                  "term": "Cost basis",
+                  "def": "What you originally paid, incl. charges"
+                },
+                {
+                  "term": "STCG",
+                  "def": "Short-term capital gain (shorter holding)"
+                },
+                {
+                  "term": "LTCG",
+                  "def": "Long-term capital gain (longer holding)"
+                },
+                {
+                  "term": "Realised gain",
+                  "def": "Profit locked in once you sell"
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "kind": "info",
+              "text": "You're typically taxed only when you SELL (realise the gain). Unrealised gains keep compounding untaxed.",
+              "title": "Key idea"
+            },
+            {
+              "type": "mcq",
+              "q": "You're generally taxed on a capital gain when you…",
+              "opts": [
+                "Buy the asset",
+                "Hold the asset",
+                "Sell the asset",
+                "Receive a statement"
+              ],
+              "answer": 2,
+              "explain": "Tax usually applies on realisation (sale)."
+            }
+          ]
+        },
+        {
+          "id": "tax-2",
+          "title": "Tax-Smart Habits",
+          "summary": "Simple, legal ways to pay less.",
+          "estimatedMinutes": 5,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Tax-Smart Habits",
+              "level": 1
+            },
+            {
+              "type": "key_takeaways",
+              "items": [
+                "Use tax-advantaged accounts (PPF, NPS, ELSS) first",
+                "Hold long enough to qualify for lower long-term rates",
+                "Harvest losses to offset gains where allowed",
+                "Keep clean records of cost basis and charges"
+              ]
+            },
+            {
+              "type": "tip",
+              "text": "Never let the tax tail wag the investment dog — a good investment with some tax beats a bad one with none."
+            },
+            {
+              "type": "flashcard",
+              "front": "Tax-loss harvesting",
+              "back": "Selling losers to offset taxable gains"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "technical",
+      "title": "Technical Analysis (Bonus)",
+      "subtitle": "Reading price charts — delivered over the air",
+      "lessons": [
+        {
+          "id": "ta-1",
+          "title": "Candlesticks & Trends",
+          "summary": "What a chart is telling you.",
+          "estimatedMinutes": 6,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Candlesticks & Trends",
+              "level": 1
+            },
+            {
+              "type": "callout",
+              "kind": "success",
+              "text": "This module was delivered to your app over the air — no update required. That's server-driven content in action.",
+              "title": "Freshly downloaded"
+            },
+            {
+              "type": "paragraph",
+              "text": "A candlestick shows the open, high, low, and close for a period. Green (or white) means it closed higher; red (or black) means lower."
+            },
+            {
+              "type": "definition_grid",
+              "items": [
+                {
+                  "term": "Uptrend",
+                  "def": "Higher highs and higher lows"
+                },
+                {
+                  "term": "Downtrend",
+                  "def": "Lower highs and lower lows"
+                },
+                {
+                  "term": "Support",
+                  "def": "Price level where buyers tend to step in"
+                },
+                {
+                  "term": "Resistance",
+                  "def": "Price level where sellers tend to step in"
+                }
+              ]
+            },
+            {
+              "type": "quiz_set",
+              "title": "Charts quiz",
+              "items": [
+                {
+                  "q": "An uptrend is defined by…",
+                  "opts": [
+                    "Lower lows",
+                    "Higher highs and higher lows",
+                    "Flat prices",
+                    "High volume only"
+                  ],
+                  "answer": 1,
+                  "explain": "Rising peaks and troughs define an uptrend."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ta-2",
+          "title": "Moving Averages & RSI",
+          "summary": "Two beginner-friendly indicators.",
+          "estimatedMinutes": 6,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Moving Averages & RSI",
+              "level": 1
+            },
+            {
+              "type": "paragraph",
+              "text": "A moving average smooths price to reveal the trend. The RSI (Relative Strength Index) ranges 0–100 and hints at overbought (>70) or oversold (<30) conditions."
+            },
+            {
+              "type": "formula",
+              "latex": "SMA = (P1 + P2 + ... + Pn) / n"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "RSI",
+                "Common reading"
+              ],
+              "rows": [
+                [
+                  "> 70",
+                  "Potentially overbought"
+                ],
+                [
+                  "30–70",
+                  "Neutral"
+                ],
+                [
+                  "< 30",
+                  "Potentially oversold"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "kind": "warning",
+              "text": "Indicators are hints, not guarantees. They work best together and with risk management.",
+              "title": "Reality check"
+            },
+            {
+              "type": "mcq",
+              "q": "An RSI above 70 traditionally suggests…",
+              "opts": [
+                "Oversold",
+                "Overbought",
+                "No trend",
+                "A dividend"
+              ],
+              "answer": 1,
+              "explain": "Above 70 is the classic overbought zone."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crypto",
+      "title": "Crypto & Digital Assets (Bonus)",
+      "subtitle": "A sober beginner's primer — over the air",
+      "lessons": [
+        {
+          "id": "cr-1",
+          "title": "What Is a Blockchain?",
+          "summary": "The ledger behind crypto.",
+          "estimatedMinutes": 5,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "What Is a Blockchain?",
+              "level": 1
+            },
+            {
+              "type": "callout",
+              "kind": "success",
+              "text": "Also delivered remotely after release — proof that new modules can ship instantly.",
+              "title": "Freshly downloaded"
+            },
+            {
+              "type": "paragraph",
+              "text": "A blockchain is a shared, append-only ledger maintained by a network of computers. No single party controls it, and past records are very hard to alter."
+            },
+            {
+              "type": "definition_grid",
+              "items": [
+                {
+                  "term": "Wallet",
+                  "def": "Stores the keys that control your coins"
+                },
+                {
+                  "term": "Private key",
+                  "def": "Secret that proves ownership — never share it"
+                },
+                {
+                  "term": "Volatility",
+                  "def": "Crypto prices can swing violently"
+                },
+                {
+                  "term": "Custody",
+                  "def": "Who holds your keys — you or an exchange"
+                }
+              ]
+            },
+            {
+              "type": "mcq",
+              "q": "Your private key should be…",
+              "opts": [
+                "Shared with support",
+                "Posted publicly",
+                "Kept secret by you",
+                "Emailed to yourself"
+              ],
+              "answer": 2,
+              "explain": "Anyone with your private key controls your funds."
+            }
+          ]
+        },
+        {
+          "id": "cr-2",
+          "title": "Risk & Position Sizing",
+          "summary": "Only what you can lose.",
+          "estimatedMinutes": 5,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Risk & Position Sizing",
+              "level": 1
+            },
+            {
+              "type": "key_takeaways",
+              "items": [
+                "Treat crypto as high-risk, small-allocation",
+                "Never invest borrowed money or your emergency fund",
+                "Beware scams: 'guaranteed returns' are a red flag"
+              ]
+            },
+            {
+              "type": "callout",
+              "kind": "warning",
+              "text": "A common cap is keeping speculative assets under 5–10% of your portfolio.",
+              "title": "Sizing"
+            },
+            {
+              "type": "flashcard",
+              "front": "Rule of thumb",
+              "back": "Only allocate to crypto what you can afford to lose"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tools": []
+}
