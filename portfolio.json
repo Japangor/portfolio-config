@@ -72,6 +72,20 @@
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/5410640746",
       "ads.rewarded_unit_id": ""
     },
+    "com.gjam.bhasaguru": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~2677009072",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/4791713123",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/8993847861",
+      "ads.interstitial_button_cooldown_sec": 18,
+      "ads.interstitial_every_n_screens": 2,
+      "ads.interstitial_session_cap": 14,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/1674173737",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/1340764720",
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/9750571939",
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/2429273661"
+    },
     "com.gjam.bmicalc": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~2094342148",
       "ads.app_open_cooldown_sec": 10800,
@@ -246,6 +260,42 @@
       "ads.native_unit_id": "ca-app-pub-3483870164836220/6031551291",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/8894564539",
       "ads.rewarded_unit_id": ""
+    },
+    "com.gjam.flight": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~1124695194",
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/4672293620",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/9627851226",
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/8775190167",
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/4835945154",
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/7462108496",
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/6149026829"
+    },
+    "com.gjam.flight.live": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~1124695194",
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/4672293620",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/9627851226",
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/8775190167",
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/4835945154",
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/7462108496",
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/6149026829"
+    },
+    "com.gjam.flight.pro": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~1124695194",
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/4672293620",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/9627851226",
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/8775190167",
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/4835945154",
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/7462108496",
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/6149026829"
+    },
+    "com.gjam.flight.radar": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~5829554513",
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/5811326927",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/3522863486",
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/3359211950",
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/8437490261",
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/2209781813",
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/2046130282"
     },
     "com.gjam.football": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~2559622833",
@@ -498,8 +548,32 @@
       "ads.rewarded_unit_id": ""
     },
     "com.gjam.neetphysics": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~2468472541",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/5845774498",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/6037346186",
+      "ads.interstitial_button_cooldown_sec": 18,
       "ads.interstitial_every_n_screens": 3,
-      "ads.interstitial_session_cap": 8
+      "ads.interstitial_session_cap": 8,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/3411182848",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/7158856168",
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/2098101179",
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/7001119662"
+    },
+    "com.gjam.nismia": {
+      "ads.admob_app_id": "ca-app-pub-3483870164836220~5071685230",
+      "ads.app_open_cooldown_sec": 10800,
+      "ads.app_open_unit_id": "ca-app-pub-3483870164836220/7350427852",
+      "ads.banner_unit_id": "ca-app-pub-3483870164836220/2165549782",
+      "ads.interstitial_button_cooldown_sec": 18,
+      "ads.interstitial_every_n_screens": 2,
+      "ads.interstitial_session_cap": 14,
+      "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/3906006866",
+      "ads.interstitial_warmup_screens": 0,
+      "ads.native_unit_id": "ca-app-pub-3483870164836220/6401519716",
+      "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/9976591196",
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/8663509523"
     },
     "com.gjam.pctcalc": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~9710983416",
