@@ -24,8 +24,8 @@
   "ads.rewarded_unit_id": "",
   "ads.test_devices_enabled": false,
   "ads.utility_result_interstitial_every_n": 1,
-  "announcement.body": "",
-  "announcement.title": "",
+  "announcement.body": "Fresh MCQs drop every Monday \u2014 pull to refresh for new lessons.",
+  "announcement.title": "Weekly mock tests",
   "announcement.url": "",
   "force_update.message": "",
   "force_update.min_version_code": 0,
@@ -89,7 +89,7 @@
       "ads.interstitial_warmup_screens": 0,
       "ads.native_unit_id": "ca-app-pub-3483870164836220/1340764720",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/9750571939",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/2429273661"
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/2429273661ca-app-pub-3483870164836220/2429273661"
     },
     "com.gjam.bmicalc": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~2094342148",
@@ -157,7 +157,7 @@
       "ads.native_unit_id": "ca-app-pub-3483870164836220/9192108669",
       "ads.rewarded_interstitial_enabled": true,
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/1940932893",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/5027516846",
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/5027516846ca-app-pub-3483870164836220/5027516846",
       "ux.rate_prompt_after_screens": 12
     },
     "com.gjam.cricket.live": {
@@ -177,7 +177,7 @@
       "ads.native_unit_id": "ca-app-pub-3483870164836220/9192108669",
       "ads.rewarded_interstitial_enabled": true,
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/6777492455",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/6176946985",
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/6176946985ca-app-pub-3483870164836220/6176946985",
       "ux.rate_prompt_after_screens": 12
     },
     "com.gjam.cricket.pro": {
@@ -197,7 +197,7 @@
       "ads.native_unit_id": "ca-app-pub-3483870164836220/9192108669",
       "ads.rewarded_interstitial_enabled": true,
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/1279843525",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/8966761855",
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/8966761855ca-app-pub-3483870164836220/8966761855",
       "ux.rate_prompt_after_screens": 12
     },
     "com.gjam.cricket.t20": {
@@ -217,7 +217,7 @@
       "ads.native_unit_id": "ca-app-pub-3483870164836220/9192108669",
       "ads.rewarded_interstitial_enabled": true,
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/9924620303",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/8611538639",
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/8611538639ca-app-pub-3483870164836220/8611538639",
       "ux.rate_prompt_after_screens": 12
     },
     "com.gjam.cricket.wc": {
@@ -308,7 +308,7 @@
       "ads.interstitial_warmup_screens": 0,
       "ads.native_unit_id": "ca-app-pub-3483870164836220/4835945154",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/7462108496",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/6149026829"
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/6149026829ca-app-pub-3483870164836220/6149026829"
     },
     "com.gjam.flight.pro": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~1124695194",
@@ -334,7 +334,7 @@
       "ads.interstitial_warmup_screens": 0,
       "ads.native_unit_id": "ca-app-pub-3483870164836220/8437490261",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/2209781813",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/2046130282"
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/2046130282ca-app-pub-3483870164836220/2046130282"
     },
     "com.gjam.football": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~2559622833",
@@ -352,7 +352,7 @@
       "ads.interstitial_warmup_screens": 2,
       "ads.native_unit_id": "ca-app-pub-3483870164836220/5271059421",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/1525165773",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/6584141096"
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/6584141096ca-app-pub-3483870164836220/6584141096"
     },
     "com.gjam.football.live": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~7620377826",
@@ -370,7 +370,7 @@
       "ads.interstitial_warmup_screens": 2,
       "ads.native_unit_id": "ca-app-pub-3483870164836220/9401876122",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/3028039469",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/2462274709"
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/2462274709ca-app-pub-3483870164836220/2462274709"
     },
     "com.gjam.football.pro": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~9678394098",
@@ -388,7 +388,7 @@
       "ads.interstitial_warmup_screens": 2,
       "ads.native_unit_id": "ca-app-pub-3483870164836220/5088438049",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/3219611159",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/1906529488"
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/1906529488ca-app-pub-3483870164836220/1906529488"
     },
     "com.gjam.football.score": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~7865207834",
@@ -406,7 +406,7 @@
       "ads.interstitial_warmup_screens": 2,
       "ads.native_unit_id": "ca-app-pub-3483870164836220/6209948028",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/2836467779",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/1523386104"
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/1523386104ca-app-pub-3483870164836220/1523386104"
     },
     "com.gjam.gateaptitude": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~7281592783",
@@ -518,7 +518,7 @@
       "ads.interstitial_warmup_screens": 0,
       "ads.native_unit_id": "ca-app-pub-3483870164836220/3537249892",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/2871640724",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/5579277073"
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/5579277073ca-app-pub-3483870164836220/5579277073"
     },
     "com.gjam.learnjava": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~8695917663",
@@ -634,7 +634,7 @@
       "ads.interstitial_warmup_screens": 0,
       "ads.native_unit_id": "ca-app-pub-3483870164836220/7158856168",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/2098101179",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/7001119662"
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/7001119662ca-app-pub-3483870164836220/7001119662"
     },
     "com.gjam.nismia": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~5071685230",
@@ -648,7 +648,7 @@
       "ads.interstitial_warmup_screens": 0,
       "ads.native_unit_id": "ca-app-pub-3483870164836220/6401519716",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/9976591196",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/8663509523"
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/8663509523ca-app-pub-3483870164836220/8663509523"
     },
     "com.gjam.pctcalc": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~9710983416",
@@ -847,7 +847,7 @@
       "ads.interstitial_warmup_screens": 0,
       "ads.native_unit_id": "ca-app-pub-3483870164836220/5182043059",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/9200640115",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/5813769303"
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/5813769303ca-app-pub-3483870164836220/5813769303"
     },
     "com.japangor.gjamtexteditor": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~6045039911",
@@ -917,7 +917,7 @@
       "ads.interstitial_warmup_screens": 0,
       "ads.native_unit_id": "ca-app-pub-3483870164836220/2515517119",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/9952425525",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/8639343852"
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/8639343852ca-app-pub-3483870164836220/8639343852"
     },
     "com.japangor.learnjs": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~8494754068",
@@ -959,7 +959,7 @@
       "ads.interstitial_warmup_screens": 0,
       "ads.native_unit_id": "ca-app-pub-3483870164836220/9420131966",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/3693767806",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/4131846928"
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/4131846928ca-app-pub-3483870164836220/4131846928"
     },
     "com.japangor.learntocodec": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~6844644946",
@@ -1024,7 +1024,7 @@
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/2976068572",
       "ads.native_unit_id": "",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/9349905238",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/8583618476"
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/8583618476ca-app-pub-3483870164836220/8583618476"
     },
     "com.railways": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~9955829339",
@@ -1033,7 +1033,7 @@
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/4480721939",
       "ads.native_unit_id": "",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/1854558594",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/8228395250"
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/8228395250ca-app-pub-3483870164836220/8228395250"
     },
     "in.gjam.gupshupguru.twa": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~6549658132",
@@ -1066,7 +1066,7 @@
       "ads.rewarded_enabled": true,
       "ads.rewarded_interstitial_enabled": true,
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/2474495373",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/5552084858"
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/5552084858ca-app-pub-3483870164836220/5552084858"
     },
     "parivahan.com": {
       "ads.admob_app_id": "ca-app-pub-3483870164836220~8360041597",
@@ -1089,7 +1089,7 @@
       "ads.interstitial_unit_id": "ca-app-pub-3483870164836220/7270536801",
       "ads.native_unit_id": "",
       "ads.rewarded_interstitial_unit_id": "ca-app-pub-3483870164836220/1471415215",
-      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/5957455139"
+      "ads.rewarded_unit_id": "ca-app-pub-3483870164836220/5957455139ca-app-pub-3483870164836220/5957455139"
     }
   },
   "ux.rate_prompt_after_screens": 8,
