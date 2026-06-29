@@ -1,0 +1,133 @@
+{
+  "base": "https://japangor.github.io/portfolio-config/content",
+  "packs": {
+    "learn_python": {
+      "url": "https://japangor.github.io/portfolio-config/content/learn_python/content.pack.json",
+      "version": 1
+    },
+    "learn_sql": {
+      "url": "https://japangor.github.io/portfolio-config/content/learn_sql/content.pack.json",
+      "version": 1
+    },
+    "learn_html": {
+      "url": "https://japangor.github.io/portfolio-config/content/learn_html/content.pack.json",
+      "version": 1
+    },
+    "learn_java": {
+      "url": "https://japangor.github.io/portfolio-config/content/learn_java/content.pack.json",
+      "version": 1
+    },
+    "learn_kotlin": {
+      "url": "https://japangor.github.io/portfolio-config/content/learn_kotlin/content.pack.json",
+      "version": 1
+    },
+    "learn_c": {
+      "url": "https://japangor.github.io/portfolio-config/content/learn_c/content.pack.json",
+      "version": 1
+    },
+    "learn_cpp": {
+      "url": "https://japangor.github.io/portfolio-config/content/learn_cpp/content.pack.json",
+      "version": 1
+    },
+    "learn_to_code": {
+      "url": "https://japangor.github.io/portfolio-config/content/learn_to_code/content.pack.json",
+      "version": 1
+    },
+    "learn_ai": {
+      "url": "https://japangor.github.io/portfolio-config/content/learn_ai/content.pack.json",
+      "version": 1
+    },
+    "learn_llm": {
+      "url": "https://japangor.github.io/portfolio-config/content/learn_llm/content.pack.json",
+      "version": 1
+    },
+    "ssc_gk_quiz": {
+      "url": "https://japangor.github.io/portfolio-config/content/ssc_gk_quiz/content.pack.json",
+      "version": 1
+    },
+    "banking_aptitude": {
+      "url": "https://japangor.github.io/portfolio-config/content/banking_aptitude/content.pack.json",
+      "version": 1
+    },
+    "neet_physics": {
+      "url": "https://japangor.github.io/portfolio-config/content/neet_physics/content.pack.json",
+      "version": 1
+    },
+    "neet_chemistry": {
+      "url": "https://japangor.github.io/portfolio-config/content/neet_chemistry/content.pack.json",
+      "version": 1
+    },
+    "neet_biology": {
+      "url": "https://japangor.github.io/portfolio-config/content/neet_biology/content.pack.json",
+      "version": 1
+    },
+    "gate_aptitude": {
+      "url": "https://japangor.github.io/portfolio-config/content/gate_aptitude/content.pack.json",
+      "version": 1
+    },
+    "sat_vocabulary": {
+      "url": "https://japangor.github.io/portfolio-config/content/sat_vocabulary/content.pack.json",
+      "version": 1
+    },
+    "gre_quant": {
+      "url": "https://japangor.github.io/portfolio-config/content/gre_quant/content.pack.json",
+      "version": 1
+    },
+    "ielts_words": {
+      "url": "https://japangor.github.io/portfolio-config/content/ielts_words/content.pack.json",
+      "version": 1
+    },
+    "upsc_history": {
+      "url": "https://japangor.github.io/portfolio-config/content/upsc_history/content.pack.json",
+      "version": 1
+    },
+    "nism_ia": {
+      "url": "https://japangor.github.io/portfolio-config/content/nism_ia/content.pack.json",
+      "version": 1
+    },
+    "python_learn": {
+      "url": "https://japangor.github.io/portfolio-config/content/python_learn/content.pack.json",
+      "version": 1
+    },
+    "learntocodec": {
+      "url": "https://japangor.github.io/portfolio-config/content/learntocodec/content.pack.json",
+      "version": 1
+    },
+    "learnsql_jp": {
+      "url": "https://japangor.github.io/portfolio-config/content/learnsql_jp/content.pack.json",
+      "version": 1
+    },
+    "learnjs": {
+      "url": "https://japangor.github.io/portfolio-config/content/learnjs/content.pack.json",
+      "version": 1
+    },
+    "learnfirebase": {
+      "url": "https://japangor.github.io/portfolio-config/content/learnfirebase/content.pack.json",
+      "version": 1
+    },
+    "learndigital": {
+      "url": "https://japangor.github.io/portfolio-config/content/learndigital/content.pack.json",
+      "version": 1
+    },
+    "kotlin_learn": {
+      "url": "https://japangor.github.io/portfolio-config/content/kotlin_learn/content.pack.json",
+      "version": 2
+    },
+    "java_learn": {
+      "url": "https://japangor.github.io/portfolio-config/content/java_learn/content.pack.json",
+      "version": 1
+    },
+    "cprograms": {
+      "url": "https://japangor.github.io/portfolio-config/content/cprograms/content.pack.json",
+      "version": 1
+    },
+    "cppexamples": {
+      "url": "https://japangor.github.io/portfolio-config/content/cppexamples/content.pack.json",
+      "version": 1
+    },
+    "typing_speed_drill": {
+      "url": "https://japangor.github.io/portfolio-config/content/typing_speed_drill/content.pack.json",
+      "version": 1
+    }
+  }
+}

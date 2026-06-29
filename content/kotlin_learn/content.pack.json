@@ -1,0 +1,2448 @@
+{
+  "appId": "com.japangor.kotlin",
+  "title": "Learn To Code (Kotlin)",
+  "subject": "Kotlin",
+  "version": 2,
+  "modules": [
+    {
+      "id": "javascript-foundations",
+      "title": "JavaScript Foundations",
+      "lessons": [
+        {
+          "id": "kotlin_learn-javascript-foundations-what-is-js",
+          "title": "What is Kotlin?",
+          "summary": "The language that makes web pages interactive.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "What is Kotlin?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kotlin (JS) is the programming language of the web. Kotlin gives structure, skills gives style, and Kotlin gives behaviour — clicks, data, animation, and logic."
+            },
+            {
+              "type": "paragraph",
+              "text": "JS runs in every browser and, via Node.js, on servers too. It is dynamically typed (you don't declare types) and runs line by line."
+            },
+            {
+              "type": "paragraph",
+              "text": "You can run JS instantly: open your browser, press F12, and type in the Console."
+            },
+            {
+              "type": "key_takeaways",
+              "items": [
+                "HTML = structure, CSS = style, JS = behaviour.",
+                "JS runs in browsers and on servers (Node.js).",
+                "The browser Console is your fastest playground."
+              ]
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "JavaScript mainly adds…",
+                  "opts": [
+                    "Behaviour and interactivity",
+                    "Page colours only",
+                    "Database tables",
+                    "App icons"
+                  ],
+                  "answer": 0,
+                  "explain": "JS handles logic and interaction."
+                },
+                {
+                  "q": "Where can JS run besides the browser?",
+                  "opts": [
+                    "Node.js on servers",
+                    "Only in Photoshop",
+                    "Only on iOS",
+                    "Nowhere"
+                  ],
+                  "answer": 0,
+                  "explain": "Node.js runs JS outside the browser."
+                },
+                {
+                  "q": "console.log does what?",
+                  "opts": [
+                    "Prints to the console",
+                    "Deletes a file",
+                    "Sends an email",
+                    "Styles text"
+                  ],
+                  "answer": 0,
+                  "explain": "It's the go-to debugging tool."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-javascript-foundations-variables",
+          "title": "Variables: let, const, var",
+          "summary": "Storing values you can name and reuse.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Variables: let, const, var"
+            },
+            {
+              "type": "paragraph",
+              "text": "Variables are labelled boxes for data. Modern Kotlin uses let (reassignable) and const (fixed). Avoid var — it has confusing scoping rules."
+            },
+            {
+              "type": "paragraph",
+              "text": "Use const by default; switch to let only when you must reassign. This makes code safer and easier to read."
+            },
+            {
+              "type": "definition_grid",
+              "items": [
+                {
+                  "term": "const",
+                  "def": "A binding that cannot be reassigned."
+                },
+                {
+                  "term": "let",
+                  "def": "A reassignable, block-scoped variable."
+                },
+                {
+                  "term": "var",
+                  "def": "Legacy, function-scoped — avoid in new code."
+                }
+              ]
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "Which should you reach for by default?",
+                  "opts": [
+                    "const",
+                    "var",
+                    "global",
+                    "static"
+                  ],
+                  "answer": 0,
+                  "explain": "const unless you need to reassign."
+                },
+                {
+                  "q": "let differs from const because…",
+                  "opts": [
+                    "It can be reassigned",
+                    "It is faster",
+                    "It is global",
+                    "It is a function"
+                  ],
+                  "answer": 0,
+                  "explain": "let allows reassignment."
+                },
+                {
+                  "q": "Why avoid var?",
+                  "opts": [
+                    "Confusing function scope & hoisting",
+                    "It's removed from JS",
+                    "It's slower always",
+                    "It can't hold numbers"
+                  ],
+                  "answer": 0,
+                  "explain": "let/const are block-scoped and clearer."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-javascript-foundations-data-types",
+          "title": "Data Types",
+          "summary": "Strings, numbers, booleans, null, undefined.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Data Types"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kotlin has a small set of primitive types plus objects. Knowing them prevents subtle bugs."
+            },
+            {
+              "type": "paragraph",
+              "text": "Primitives: string, number, boolean, null, undefined, bigint, symbol. Everything else (arrays, functions) is an object."
+            },
+            {
+              "type": "paragraph",
+              "text": "typeof tells you a value's type at runtime."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Type",
+                "Example"
+              ],
+              "rows": [
+                [
+                  "string",
+                  "'hello'"
+                ],
+                [
+                  "number",
+                  "3.14"
+                ],
+                [
+                  "boolean",
+                  "true / false"
+                ],
+                [
+                  "undefined",
+                  "a declared but unset variable"
+                ],
+                [
+                  "null",
+                  "intentional 'no value'"
+                ]
+              ]
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "typeof null returns…",
+                  "opts": [
+                    "'object' (a quirk)",
+                    "'null'",
+                    "'undefined'",
+                    "'number'"
+                  ],
+                  "answer": 0,
+                  "explain": "A historic JS bug kept for compatibility."
+                },
+                {
+                  "q": "Which is NOT a primitive?",
+                  "opts": [
+                    "Array",
+                    "string",
+                    "number",
+                    "boolean"
+                  ],
+                  "answer": 0,
+                  "explain": "Arrays are objects."
+                },
+                {
+                  "q": "An unset declared variable is…",
+                  "opts": [
+                    "undefined",
+                    "null",
+                    "0",
+                    "NaN"
+                  ],
+                  "answer": 0,
+                  "explain": "Declared but unassigned = undefined."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-javascript-foundations-operators",
+          "title": "Operators & Expressions",
+          "summary": "Arithmetic, comparison, and assignment.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Operators & Expressions"
+            },
+            {
+              "type": "paragraph",
+              "text": "Operators combine values. Use === (strict equality) instead of == to avoid type-coercion surprises."
+            },
+            {
+              "type": "key_takeaways",
+              "items": [
+                "Always prefer === and !== over == and !=.",
+                "% is remainder; ** is exponent.",
+                "+ concatenates when either side is a string."
+              ]
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "Which equality should you use?",
+                  "opts": [
+                    "===",
+                    "==",
+                    "=",
+                    "=:="
+                  ],
+                  "answer": 0,
+                  "explain": "Strict equality avoids coercion bugs."
+                },
+                {
+                  "q": "5 % 2 evaluates to…",
+                  "opts": [
+                    "1",
+                    "2.5",
+                    "10",
+                    "0"
+                  ],
+                  "answer": 0,
+                  "explain": "% gives the remainder."
+                },
+                {
+                  "q": "'a' + 1 produces…",
+                  "opts": [
+                    "'a1'",
+                    "NaN",
+                    "error",
+                    "1"
+                  ],
+                  "answer": 0,
+                  "explain": "+ with a string concatenates."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-javascript-foundations-type-coercion",
+          "title": "Truthy, Falsy & Coercion",
+          "summary": "How Kotlin converts values in conditions.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Truthy, Falsy & Coercion"
+            },
+            {
+              "type": "paragraph",
+              "text": "In conditions, Kotlin coerces values to boolean. Knowing the falsy values prevents bugs in if-statements."
+            },
+            {
+              "type": "paragraph",
+              "text": "Falsy values: false, 0, '' (empty string), null, undefined, NaN. Everything else is truthy."
+            },
+            {
+              "type": "callout",
+              "kind": "warning",
+              "text": "'0' (a string) is truthy, but 0 (a number) is falsy. Watch the types!"
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "Which is falsy?",
+                  "opts": [
+                    "0",
+                    "'0'",
+                    "[]",
+                    "'false'"
+                  ],
+                  "answer": 0,
+                  "explain": "Number 0 is falsy; the others are truthy."
+                },
+                {
+                  "q": "x || 'Guest' returns 'Guest' when x is…",
+                  "opts": [
+                    "falsy",
+                    "truthy",
+                    "a string",
+                    "a number"
+                  ],
+                  "answer": 0,
+                  "explain": "|| returns the first truthy value."
+                },
+                {
+                  "q": "Empty array [] is…",
+                  "opts": [
+                    "truthy",
+                    "falsy",
+                    "null",
+                    "undefined"
+                  ],
+                  "answer": 0,
+                  "explain": "Objects/arrays are always truthy."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "control-flow",
+      "title": "Control Flow",
+      "lessons": [
+        {
+          "id": "kotlin_learn-control-flow-conditionals",
+          "title": "if / else",
+          "summary": "Making decisions in code.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "if / else"
+            },
+            {
+              "type": "paragraph",
+              "text": "Conditionals run different code based on a test. They are the heart of program logic."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "else if lets you…",
+                  "opts": [
+                    "Test multiple conditions in order",
+                    "Loop forever",
+                    "Define a function",
+                    "Import a module"
+                  ],
+                  "answer": 0,
+                  "explain": "Chained conditions."
+                },
+                {
+                  "q": "A condition must evaluate to…",
+                  "opts": [
+                    "A truthy/falsy value",
+                    "Only true",
+                    "A string",
+                    "A number 1"
+                  ],
+                  "answer": 0,
+                  "explain": "JS coerces to boolean."
+                },
+                {
+                  "q": "Curly braces {} group…",
+                  "opts": [
+                    "The block to run",
+                    "Comments",
+                    "Variables only",
+                    "Imports"
+                  ],
+                  "answer": 0,
+                  "explain": "Braces delimit the block."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-control-flow-loops",
+          "title": "Loops: for & while",
+          "summary": "Repeating work efficiently.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Loops: for & while"
+            },
+            {
+              "type": "paragraph",
+              "text": "Loops repeat a block until a condition is met. for is best when you know the count; while when you don't."
+            },
+            {
+              "type": "tip",
+              "text": "for...of loops over array values; for...in loops over object keys."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "i++ does what each iteration?",
+                  "opts": [
+                    "Increments i by 1",
+                    "Resets i",
+                    "Doubles i",
+                    "Deletes i"
+                  ],
+                  "answer": 0,
+                  "explain": "Post-increment by one."
+                },
+                {
+                  "q": "Use for...of to iterate…",
+                  "opts": [
+                    "Array values",
+                    "Object keys only",
+                    "Strings backwards",
+                    "Functions"
+                  ],
+                  "answer": 0,
+                  "explain": "for...of yields values."
+                },
+                {
+                  "q": "An infinite loop happens when…",
+                  "opts": [
+                    "The condition never becomes false",
+                    "You use const",
+                    "You log inside",
+                    "You use break"
+                  ],
+                  "answer": 0,
+                  "explain": "Always make progress toward the exit."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-control-flow-switch",
+          "title": "switch Statements",
+          "summary": "Cleaner branching on one value.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "switch Statements"
+            },
+            {
+              "type": "paragraph",
+              "text": "switch compares one value against many cases. Remember break, or execution 'falls through' to the next case."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "Forgetting break causes…",
+                  "opts": [
+                    "Fall-through to next case",
+                    "A syntax error",
+                    "An infinite loop",
+                    "Nothing"
+                  ],
+                  "answer": 0,
+                  "explain": "Execution continues until break."
+                },
+                {
+                  "q": "default runs when…",
+                  "opts": [
+                    "No case matches",
+                    "Always first",
+                    "Never",
+                    "Only with break"
+                  ],
+                  "answer": 0,
+                  "explain": "default is the fallback."
+                },
+                {
+                  "q": "switch compares using…",
+                  "opts": [
+                    "Strict equality (===)",
+                    "Loose ==",
+                    "typeof",
+                    "Regex"
+                  ],
+                  "answer": 0,
+                  "explain": "Cases match with ===."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-control-flow-ternary-logic",
+          "title": "Ternary & Logical Operators",
+          "summary": "Concise conditionals and short-circuiting.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Ternary & Logical Operators"
+            },
+            {
+              "type": "paragraph",
+              "text": "The ternary ?: is a one-line if/else. && and || short-circuit, which enables neat patterns."
+            },
+            {
+              "type": "definition_grid",
+              "items": [
+                {
+                  "term": "?:",
+                  "def": "Ternary: condition ? whenTrue : whenFalse."
+                },
+                {
+                  "term": "&&",
+                  "def": "Returns first falsy or last value."
+                },
+                {
+                  "term": "??",
+                  "def": "Default only when left is null/undefined."
+                }
+              ]
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "a ?? b returns b when a is…",
+                  "opts": [
+                    "null or undefined",
+                    "any falsy value",
+                    "0",
+                    "''"
+                  ],
+                  "answer": 0,
+                  "explain": "?? ignores 0 and '' (unlike ||)."
+                },
+                {
+                  "q": "The ternary is shorthand for…",
+                  "opts": [
+                    "if/else",
+                    "a loop",
+                    "a function",
+                    "a class"
+                  ],
+                  "answer": 0,
+                  "explain": "One-line conditional expression."
+                },
+                {
+                  "q": "user && user.name avoids…",
+                  "opts": [
+                    "Reading name of undefined",
+                    "Slow loops",
+                    "Type errors in CSS",
+                    "Network calls"
+                  ],
+                  "answer": 0,
+                  "explain": "Short-circuits before the crash."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-control-flow-errors-intro",
+          "title": "Errors & try/catch",
+          "summary": "Handling failures gracefully.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Errors & try/catch"
+            },
+            {
+              "type": "paragraph",
+              "text": "When code can fail (bad input, network), wrap it in try/catch so one error doesn't crash everything."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "catch runs when…",
+                  "opts": [
+                    "Code in try throws",
+                    "Always",
+                    "Never",
+                    "Only on success"
+                  ],
+                  "answer": 0,
+                  "explain": "It handles thrown errors."
+                },
+                {
+                  "q": "finally runs…",
+                  "opts": [
+                    "Whether or not an error occurred",
+                    "Only on error",
+                    "Only on success",
+                    "Never"
+                  ],
+                  "answer": 0,
+                  "explain": "Great for cleanup."
+                },
+                {
+                  "q": "err.message gives…",
+                  "opts": [
+                    "A human-readable description",
+                    "The whole stack as JSON",
+                    "The file size",
+                    "Nothing"
+                  ],
+                  "answer": 0,
+                  "explain": "Short error text."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "functions",
+      "title": "Functions",
+      "lessons": [
+        {
+          "id": "kotlin_learn-functions-function-basics",
+          "title": "Function Basics",
+          "summary": "Reusable blocks of logic.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Function Basics"
+            },
+            {
+              "type": "paragraph",
+              "text": "Functions package logic so you can reuse it. They take inputs (parameters) and return outputs."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "return does what?",
+                  "opts": [
+                    "Sends a value back to the caller",
+                    "Prints to console",
+                    "Ends the program",
+                    "Defines a variable"
+                  ],
+                  "answer": 0,
+                  "explain": "It produces the function's result."
+                },
+                {
+                  "q": "Parameters are…",
+                  "opts": [
+                    "Named inputs",
+                    "Outputs",
+                    "Loops",
+                    "Comments"
+                  ],
+                  "answer": 0,
+                  "explain": "Inputs listed in parentheses."
+                },
+                {
+                  "q": "A function with no return returns…",
+                  "opts": [
+                    "undefined",
+                    "null",
+                    "0",
+                    "''"
+                  ],
+                  "answer": 0,
+                  "explain": "Implicit undefined."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-functions-params-defaults",
+          "title": "Parameters & Defaults",
+          "summary": "Default values and rest parameters.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Parameters & Defaults"
+            },
+            {
+              "type": "paragraph",
+              "text": "Default parameters provide fallbacks; rest parameters gather extra arguments into an array."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "`Hi, ${name}` is a…",
+                  "opts": [
+                    "Template literal",
+                    "Regex",
+                    "Comment",
+                    "Loop"
+                  ],
+                  "answer": 0,
+                  "explain": "Backticks allow ${} interpolation."
+                },
+                {
+                  "q": "...nums in a parameter is…",
+                  "opts": [
+                    "Rest — gathers args into an array",
+                    "Spread",
+                    "A type",
+                    "An error"
+                  ],
+                  "answer": 0,
+                  "explain": "Rest collects remaining args."
+                },
+                {
+                  "q": "Default params are used when…",
+                  "opts": [
+                    "The arg is undefined",
+                    "Always",
+                    "The arg is 0",
+                    "Never"
+                  ],
+                  "answer": 0,
+                  "explain": "Missing/undefined triggers the default."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-functions-arrow-functions",
+          "title": "Arrow Functions",
+          "summary": "Short syntax and lexical this.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Arrow Functions"
+            },
+            {
+              "type": "paragraph",
+              "text": "Arrow functions are concise and inherit this from the surrounding scope — ideal for callbacks."
+            },
+            {
+              "type": "callout",
+              "kind": "warning",
+              "text": "Arrows have no own this — don't use them as object methods that need this."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "x => x * x is equivalent to…",
+                  "opts": [
+                    "function(x){return x*x}",
+                    "a loop",
+                    "a class",
+                    "an object"
+                  ],
+                  "answer": 0,
+                  "explain": "Concise function expression."
+                },
+                {
+                  "q": "Arrow functions get this from…",
+                  "opts": [
+                    "The enclosing scope",
+                    "The global object",
+                    "The caller",
+                    "Nowhere"
+                  ],
+                  "answer": 0,
+                  "explain": "Lexical this."
+                },
+                {
+                  "q": "Single-expression arrows…",
+                  "opts": [
+                    "Return implicitly",
+                    "Need return",
+                    "Can't return",
+                    "Are async"
+                  ],
+                  "answer": 0,
+                  "explain": "No braces = implicit return."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-functions-scope-closures",
+          "title": "Scope & Closures",
+          "summary": "Where variables live, and functions that remember.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Scope & Closures"
+            },
+            {
+              "type": "paragraph",
+              "text": "Scope decides where a variable is visible. A closure is a function that 'remembers' variables from where it was created — a powerful pattern."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "A closure is a function that…",
+                  "opts": [
+                    "Remembers its outer variables",
+                    "Has no parameters",
+                    "Runs once",
+                    "Is global"
+                  ],
+                  "answer": 0,
+                  "explain": "It closes over its scope."
+                },
+                {
+                  "q": "let/const are scoped to…",
+                  "opts": [
+                    "The nearest block {}",
+                    "The whole file always",
+                    "The function only",
+                    "Global only"
+                  ],
+                  "answer": 0,
+                  "explain": "Block scope."
+                },
+                {
+                  "q": "In the example, count is…",
+                  "opts": [
+                    "Private to each counter()",
+                    "Global",
+                    "Reset each call",
+                    "A constant"
+                  ],
+                  "answer": 0,
+                  "explain": "Each call gets its own count."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-functions-higher-order",
+          "title": "Higher-Order Functions",
+          "summary": "Functions that take or return functions.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Higher-Order Functions"
+            },
+            {
+              "type": "paragraph",
+              "text": "Higher-order functions accept callbacks or return functions. They power array methods like map, filter, and reduce."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "A callback is…",
+                  "opts": [
+                    "A function passed to another function",
+                    "A variable",
+                    "A loop",
+                    "An object"
+                  ],
+                  "answer": 0,
+                  "explain": "Passed in to be called later."
+                },
+                {
+                  "q": "filter returns…",
+                  "opts": [
+                    "A new array of matching items",
+                    "One boolean",
+                    "The first match",
+                    "undefined"
+                  ],
+                  "answer": 0,
+                  "explain": "Keeps items where the test is true."
+                },
+                {
+                  "q": "reduce is for…",
+                  "opts": [
+                    "Collapsing an array to one value",
+                    "Sorting",
+                    "Reversing",
+                    "Logging"
+                  ],
+                  "answer": 0,
+                  "explain": "Accumulates a single result."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "objects-and-arrays",
+      "title": "Objects & Arrays",
+      "lessons": [
+        {
+          "id": "kotlin_learn-objects-and-arrays-objects",
+          "title": "Objects",
+          "summary": "Key–value data structures.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Objects"
+            },
+            {
+              "type": "paragraph",
+              "text": "Objects group related data under named keys. They model real things: a user, a product, a setting."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "Object data is stored as…",
+                  "opts": [
+                    "key–value pairs",
+                    "an ordered list",
+                    "a single value",
+                    "a function"
+                  ],
+                  "answer": 0,
+                  "explain": "Named properties."
+                },
+                {
+                  "q": "user['age'] is useful when…",
+                  "opts": [
+                    "The key is dynamic/in a variable",
+                    "Always",
+                    "Never",
+                    "Only for numbers"
+                  ],
+                  "answer": 0,
+                  "explain": "Bracket access for computed keys."
+                },
+                {
+                  "q": "Adding user.city = 'Pune'…",
+                  "opts": [
+                    "Adds a new property",
+                    "Throws an error",
+                    "Deletes name",
+                    "Freezes the object"
+                  ],
+                  "answer": 0,
+                  "explain": "Objects are mutable by default."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-objects-and-arrays-arrays",
+          "title": "Arrays",
+          "summary": "Ordered lists of values.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Arrays"
+            },
+            {
+              "type": "paragraph",
+              "text": "Arrays hold ordered collections. Indexes start at 0. They have a rich set of built-in methods."
+            },
+            {
+              "type": "table",
+              "headers": [
+                "Method",
+                "Does"
+              ],
+              "rows": [
+                [
+                  "push/pop",
+                  "Add/remove at end"
+                ],
+                [
+                  "shift/unshift",
+                  "Remove/add at start"
+                ],
+                [
+                  "slice",
+                  "Copy a portion"
+                ],
+                [
+                  "splice",
+                  "Insert/remove in place"
+                ]
+              ]
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "The first index is…",
+                  "opts": [
+                    "0",
+                    "1",
+                    "-1",
+                    "length"
+                  ],
+                  "answer": 0,
+                  "explain": "Arrays are zero-indexed."
+                },
+                {
+                  "q": "push adds an item…",
+                  "opts": [
+                    "At the end",
+                    "At the start",
+                    "Randomly",
+                    "Nowhere"
+                  ],
+                  "answer": 0,
+                  "explain": "Append to the tail."
+                },
+                {
+                  "q": "slice differs from splice because…",
+                  "opts": [
+                    "slice doesn't modify the original",
+                    "slice is slower",
+                    "splice copies",
+                    "they're identical"
+                  ],
+                  "answer": 0,
+                  "explain": "splice mutates; slice returns a copy."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-objects-and-arrays-array-methods",
+          "title": "map, filter, find, sort",
+          "summary": "The everyday array toolkit.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "map, filter, find, sort"
+            },
+            {
+              "type": "paragraph",
+              "text": "These methods replace most manual loops with clear, declarative code."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "map returns…",
+                  "opts": [
+                    "A new array, same length",
+                    "One value",
+                    "A boolean",
+                    "The original"
+                  ],
+                  "answer": 0,
+                  "explain": "Transforms each element."
+                },
+                {
+                  "q": "find returns…",
+                  "opts": [
+                    "The first matching element",
+                    "All matches",
+                    "An index",
+                    "A new array"
+                  ],
+                  "answer": 0,
+                  "explain": "First match or undefined."
+                },
+                {
+                  "q": "sort((a,b)=>a-b) sorts…",
+                  "opts": [
+                    "Ascending numerically",
+                    "Descending",
+                    "Alphabetically",
+                    "Randomly"
+                  ],
+                  "answer": 0,
+                  "explain": "Negative = a before b."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-objects-and-arrays-destructuring",
+          "title": "Destructuring",
+          "summary": "Unpacking values from objects and arrays.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Destructuring"
+            },
+            {
+              "type": "paragraph",
+              "text": "Destructuring pulls properties or items into variables in one line — common in modern JS."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "const {name} = user creates…",
+                  "opts": [
+                    "A variable name from user.name",
+                    "A new object",
+                    "A loop",
+                    "A function"
+                  ],
+                  "answer": 0,
+                  "explain": "Pulls the property out."
+                },
+                {
+                  "q": "Array destructuring uses…",
+                  "opts": [
+                    "Position/order",
+                    "Keys",
+                    "typeof",
+                    "Regex"
+                  ],
+                  "answer": 0,
+                  "explain": "By index order."
+                },
+                {
+                  "q": "Destructuring params makes functions…",
+                  "opts": [
+                    "Read object inputs cleanly",
+                    "Slower",
+                    "Async",
+                    "Global"
+                  ],
+                  "answer": 0,
+                  "explain": "Named-argument style."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-objects-and-arrays-spread-rest",
+          "title": "Spread & Rest",
+          "summary": "Copying, merging, and gathering.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Spread & Rest"
+            },
+            {
+              "type": "paragraph",
+              "text": "The ... operator spreads items out or gathers them up depending on context."
+            },
+            {
+              "type": "tip",
+              "text": "Spread makes a shallow copy — nested objects are still shared references."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "[...a, 3] does what?",
+                  "opts": [
+                    "Copies a and adds 3",
+                    "Deletes a",
+                    "Sorts a",
+                    "Reverses a"
+                  ],
+                  "answer": 0,
+                  "explain": "Spread + append."
+                },
+                {
+                  "q": "{...u1, ...u2} merges with…",
+                  "opts": [
+                    "Later keys overriding earlier",
+                    "Errors on conflict",
+                    "Random order",
+                    "No override"
+                  ],
+                  "answer": 0,
+                  "explain": "Right-most wins."
+                },
+                {
+                  "q": "Spread copies are…",
+                  "opts": [
+                    "Shallow",
+                    "Deep",
+                    "Frozen",
+                    "Async"
+                  ],
+                  "answer": 0,
+                  "explain": "Nested refs are shared."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-dom",
+      "title": "The DOM",
+      "lessons": [
+        {
+          "id": "kotlin_learn-the-dom-dom-intro",
+          "title": "What is the DOM?",
+          "summary": "The live tree of your page.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "What is the DOM?"
+            },
+            {
+              "type": "paragraph",
+              "text": "The DOM (Document Object Model) is the browser's live, in-memory tree of your Kotlin. Kotlin reads and changes it to update the page."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "The DOM represents…",
+                  "opts": [
+                    "The page as a tree of nodes",
+                    "The CSS file",
+                    "The server",
+                    "The keyboard"
+                  ],
+                  "answer": 0,
+                  "explain": "Live document tree."
+                },
+                {
+                  "q": "document is…",
+                  "opts": [
+                    "The root object for the page",
+                    "A CSS rule",
+                    "A loop",
+                    "A number"
+                  ],
+                  "answer": 0,
+                  "explain": "Global page object."
+                },
+                {
+                  "q": "Changing the DOM…",
+                  "opts": [
+                    "Updates what users see",
+                    "Edits your HTML file",
+                    "Restarts the browser",
+                    "Does nothing"
+                  ],
+                  "answer": 0,
+                  "explain": "Live updates render immediately."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-the-dom-selecting",
+          "title": "Selecting Elements",
+          "summary": "querySelector and friends.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Selecting Elements"
+            },
+            {
+              "type": "paragraph",
+              "text": "Before changing an element you must select it. querySelector uses skills selectors and is the modern standard."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "querySelector('#start') selects…",
+                  "opts": [
+                    "The element with id 'start'",
+                    "All buttons",
+                    "The body",
+                    "A class"
+                  ],
+                  "answer": 0,
+                  "explain": "# = id selector."
+                },
+                {
+                  "q": "querySelectorAll returns…",
+                  "opts": [
+                    "A NodeList of matches",
+                    "One element",
+                    "A string",
+                    "A number"
+                  ],
+                  "answer": 0,
+                  "explain": "All matching elements."
+                },
+                {
+                  "q": "'.item' selects by…",
+                  "opts": [
+                    "class",
+                    "id",
+                    "tag only",
+                    "attribute"
+                  ],
+                  "answer": 0,
+                  "explain": ". = class selector."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-the-dom-modifying",
+          "title": "Changing Content & Style",
+          "summary": "textContent, classList, attributes.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Changing Content & Style"
+            },
+            {
+              "type": "paragraph",
+              "text": "Once selected, you can change text, classes, styles, and attributes of an element."
+            },
+            {
+              "type": "callout",
+              "kind": "warning",
+              "text": "Prefer textContent over innerHTML for plain text — innerHTML can enable XSS attacks."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "classList.toggle does what?",
+                  "opts": [
+                    "Adds class if absent, removes if present",
+                    "Always adds",
+                    "Always removes",
+                    "Reads the class"
+                  ],
+                  "answer": 0,
+                  "explain": "Flip a class on/off."
+                },
+                {
+                  "q": "Why prefer textContent?",
+                  "opts": [
+                    "Avoids XSS from raw HTML",
+                    "It's prettier",
+                    "It's required",
+                    "It loads faster fonts"
+                  ],
+                  "answer": 0,
+                  "explain": "Safer for untrusted text."
+                },
+                {
+                  "q": "setAttribute changes…",
+                  "opts": [
+                    "An element's attribute",
+                    "The CSS file",
+                    "The URL",
+                    "The title bar"
+                  ],
+                  "answer": 0,
+                  "explain": "Sets HTML attributes."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-the-dom-events",
+          "title": "Events & Listeners",
+          "summary": "Responding to clicks, input, and more.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Events & Listeners"
+            },
+            {
+              "type": "paragraph",
+              "text": "Events fire when users interact. addEventListener runs your function when the event happens."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "addEventListener('click', fn) runs fn…",
+                  "opts": [
+                    "On each click",
+                    "Once at load",
+                    "Never",
+                    "On page close"
+                  ],
+                  "answer": 0,
+                  "explain": "Every time the event fires."
+                },
+                {
+                  "q": "The function passed is the…",
+                  "opts": [
+                    "Event handler / callback",
+                    "Event itself",
+                    "Element",
+                    "Style"
+                  ],
+                  "answer": 0,
+                  "explain": "It handles the event."
+                },
+                {
+                  "q": "You can attach…",
+                  "opts": [
+                    "Many listeners to one element",
+                    "Only one ever",
+                    "Listeners only to body",
+                    "Listeners only in CSS"
+                  ],
+                  "answer": 0,
+                  "explain": "Multiple handlers allowed."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-the-dom-forms-events",
+          "title": "Forms & Input Events",
+          "summary": "Reading values and preventing default.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Forms & Input Events"
+            },
+            {
+              "type": "paragraph",
+              "text": "Form handling is a core skill: read input values, validate, and stop the default page reload on submit."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "e.preventDefault() on submit…",
+                  "opts": [
+                    "Stops the page reload",
+                    "Submits twice",
+                    "Clears the form",
+                    "Disables JS"
+                  ],
+                  "answer": 0,
+                  "explain": "Take control of submission."
+                },
+                {
+                  "q": "input.value gives…",
+                  "opts": [
+                    "The current text typed",
+                    "The label",
+                    "The id",
+                    "The CSS"
+                  ],
+                  "answer": 0,
+                  "explain": "The field's value."
+                },
+                {
+                  "q": ".trim() removes…",
+                  "opts": [
+                    "Leading/trailing whitespace",
+                    "All spaces",
+                    "Numbers",
+                    "Vowels"
+                  ],
+                  "answer": 0,
+                  "explain": "Cleans up input edges."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asynchronous-javascript",
+      "title": "Asynchronous JavaScript",
+      "lessons": [
+        {
+          "id": "kotlin_learn-asynchronous-javascript-callbacks",
+          "title": "Callbacks & the Event Loop",
+          "summary": "Why Kotlin doesn't block.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Callbacks & the Event Loop"
+            },
+            {
+              "type": "paragraph",
+              "text": "Kotlin is single-threaded but non-blocking. Slow work (timers, network) is scheduled and a callback runs later via the event loop."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "setTimeout(fn, 0) runs fn…",
+                  "opts": [
+                    "After current sync code finishes",
+                    "Immediately, before logs",
+                    "Never",
+                    "Twice"
+                  ],
+                  "answer": 0,
+                  "explain": "Queued for the next tick."
+                },
+                {
+                  "q": "JS is…",
+                  "opts": [
+                    "Single-threaded, non-blocking",
+                    "Multi-threaded",
+                    "Always blocking",
+                    "Compiled only"
+                  ],
+                  "answer": 0,
+                  "explain": "One thread + event loop."
+                },
+                {
+                  "q": "Callback hell refers to…",
+                  "opts": [
+                    "Deeply nested callbacks",
+                    "A syntax error",
+                    "A CSS bug",
+                    "A fast loop"
+                  ],
+                  "answer": 0,
+                  "explain": "Promises fix this."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-asynchronous-javascript-promises",
+          "title": "Promises",
+          "summary": "A cleaner model for async results.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Promises"
+            },
+            {
+              "type": "paragraph",
+              "text": "A Promise represents a value that will exist later. It is pending, then fulfilled or rejected. .then handles success, .catch handles errors."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "A promise can be…",
+                  "opts": [
+                    "Pending, fulfilled, or rejected",
+                    "Only true/false",
+                    "A number",
+                    "A loop"
+                  ],
+                  "answer": 0,
+                  "explain": "Three states."
+                },
+                {
+                  "q": ".catch handles…",
+                  "opts": [
+                    "Rejections/errors",
+                    "Success only",
+                    "Loops",
+                    "Styles"
+                  ],
+                  "answer": 0,
+                  "explain": "Error branch of the chain."
+                },
+                {
+                  "q": ".then returns…",
+                  "opts": [
+                    "A new promise (chainable)",
+                    "undefined always",
+                    "The element",
+                    "A string"
+                  ],
+                  "answer": 0,
+                  "explain": "Enables chaining."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-asynchronous-javascript-async-await",
+          "title": "async / await",
+          "summary": "Write async code that reads like sync.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "async / await"
+            },
+            {
+              "type": "paragraph",
+              "text": "async/await is syntactic sugar over promises. await pauses inside an async function until the promise resolves."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "await can only be used…",
+                  "opts": [
+                    "Inside an async function (or top-level module)",
+                    "Anywhere",
+                    "In CSS",
+                    "In loops only"
+                  ],
+                  "answer": 0,
+                  "explain": "Requires async context."
+                },
+                {
+                  "q": "async/await is built on…",
+                  "opts": [
+                    "Promises",
+                    "Callbacks only",
+                    "Threads",
+                    "Cookies"
+                  ],
+                  "answer": 0,
+                  "explain": "Sugar over promises."
+                },
+                {
+                  "q": "Errors in async/await are caught with…",
+                  "opts": [
+                    "try/catch",
+                    ".then",
+                    "if",
+                    "switch"
+                  ],
+                  "answer": 0,
+                  "explain": "Standard try/catch."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-asynchronous-javascript-fetch-api",
+          "title": "Fetch & APIs",
+          "summary": "Getting data from the network.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Fetch & APIs"
+            },
+            {
+              "type": "paragraph",
+              "text": "fetch() makes HTTP requests. Most APIs return JSON, which you parse with res.json()."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "fetch returns…",
+                  "opts": [
+                    "A promise of a Response",
+                    "JSON directly",
+                    "A string",
+                    "An element"
+                  ],
+                  "answer": 0,
+                  "explain": "You then call .json()."
+                },
+                {
+                  "q": "res.ok is false when…",
+                  "opts": [
+                    "Status is 400–599",
+                    "Always",
+                    "On success",
+                    "Never"
+                  ],
+                  "answer": 0,
+                  "explain": "Check before parsing."
+                },
+                {
+                  "q": "Most web APIs return…",
+                  "opts": [
+                    "JSON",
+                    "Binary only",
+                    "CSS",
+                    "HTML pages"
+                  ],
+                  "answer": 0,
+                  "explain": "JSON is the common format."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-asynchronous-javascript-async-errors",
+          "title": "Handling Async Errors",
+          "summary": "Timeouts, retries, and Promise.all.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Handling Async Errors"
+            },
+            {
+              "type": "paragraph",
+              "text": "Real apps must handle slow or failing requests. Promise.all runs several in parallel and fails fast if any rejects."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "Promise.all resolves when…",
+                  "opts": [
+                    "All promises resolve",
+                    "The first resolves",
+                    "Any rejects only",
+                    "Never"
+                  ],
+                  "answer": 0,
+                  "explain": "Waits for all (or first rejection)."
+                },
+                {
+                  "q": "Promise.all rejects if…",
+                  "opts": [
+                    "Any one rejects",
+                    "All reject",
+                    "None reject",
+                    "Always"
+                  ],
+                  "answer": 0,
+                  "explain": "Fail-fast behaviour."
+                },
+                {
+                  "q": "Running requests in parallel is…",
+                  "opts": [
+                    "Faster than one-by-one",
+                    "Slower",
+                    "Impossible",
+                    "Only for images"
+                  ],
+                  "answer": 0,
+                  "explain": "Concurrency saves time."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modern-js-and-tooling",
+      "title": "Modern JS & Tooling",
+      "lessons": [
+        {
+          "id": "kotlin_learn-modern-js-and-tooling-modules",
+          "title": "ES Modules",
+          "summary": "import and export across files.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "ES Modules"
+            },
+            {
+              "type": "paragraph",
+              "text": "Modules split code into files. Export what others need; import it where you use it."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "export makes a value…",
+                  "opts": [
+                    "Available to other files",
+                    "Global",
+                    "Private",
+                    "Deleted"
+                  ],
+                  "answer": 0,
+                  "explain": "Shares across modules."
+                },
+                {
+                  "q": "import { add } uses…",
+                  "opts": [
+                    "A named export",
+                    "A default export",
+                    "CSS",
+                    "A loop"
+                  ],
+                  "answer": 0,
+                  "explain": "Braces = named import."
+                },
+                {
+                  "q": "Modules help by…",
+                  "opts": [
+                    "Organising and reusing code",
+                    "Slowing the app",
+                    "Removing functions",
+                    "Hiding the DOM"
+                  ],
+                  "answer": 0,
+                  "explain": "Better structure."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-modern-js-and-tooling-classes",
+          "title": "Classes",
+          "summary": "Blueprints for objects.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Classes"
+            },
+            {
+              "type": "paragraph",
+              "text": "Classes are templates for creating objects with shared methods. They're sugar over JS's prototype system."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "constructor runs…",
+                  "opts": [
+                    "When you use new",
+                    "Every method call",
+                    "Once per app",
+                    "Never"
+                  ],
+                  "answer": 0,
+                  "explain": "Initialises the instance."
+                },
+                {
+                  "q": "this inside a method refers to…",
+                  "opts": [
+                    "The instance",
+                    "The class",
+                    "The window",
+                    "The parent"
+                  ],
+                  "answer": 0,
+                  "explain": "The object it's called on."
+                },
+                {
+                  "q": "Classes are sugar over…",
+                  "opts": [
+                    "Prototypes",
+                    "Arrays",
+                    "JSON",
+                    "CSS"
+                  ],
+                  "answer": 0,
+                  "explain": "JS uses prototypal inheritance."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-modern-js-and-tooling-json",
+          "title": "Working with JSON",
+          "summary": "Parse and stringify data.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Working with JSON"
+            },
+            {
+              "type": "paragraph",
+              "text": "JSON is the universal data format for the web. JSON.parse turns text into objects; JSON.stringify does the reverse."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "JSON.parse converts…",
+                  "opts": [
+                    "Text → JS object",
+                    "Object → text",
+                    "Number → string",
+                    "Array → set"
+                  ],
+                  "answer": 0,
+                  "explain": "String to data."
+                },
+                {
+                  "q": "JSON.stringify converts…",
+                  "opts": [
+                    "JS object → text",
+                    "Text → object",
+                    "CSS → JS",
+                    "Nothing"
+                  ],
+                  "answer": 0,
+                  "explain": "Data to string."
+                },
+                {
+                  "q": "The 3rd stringify arg (2) controls…",
+                  "opts": [
+                    "Indentation/pretty-print",
+                    "Speed",
+                    "Encoding",
+                    "Errors"
+                  ],
+                  "answer": 0,
+                  "explain": "Spaces per indent level."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-modern-js-and-tooling-local-storage",
+          "title": "localStorage",
+          "summary": "Saving data in the browser.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "localStorage"
+            },
+            {
+              "type": "paragraph",
+              "text": "localStorage keeps key–value strings on the device, surviving page reloads — perfect for settings and small app state."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "localStorage stores…",
+                  "opts": [
+                    "Strings (key–value)",
+                    "Objects directly",
+                    "Files",
+                    "Functions"
+                  ],
+                  "answer": 0,
+                  "explain": "Stringify objects first."
+                },
+                {
+                  "q": "Data in localStorage…",
+                  "opts": [
+                    "Survives reloads",
+                    "Clears on reload",
+                    "Is sent to the server",
+                    "Expires hourly"
+                  ],
+                  "answer": 0,
+                  "explain": "Persists on device."
+                },
+                {
+                  "q": "To store an object you must…",
+                  "opts": [
+                    "JSON.stringify it",
+                    "Nothing special",
+                    "Use a database",
+                    "Use cookies"
+                  ],
+                  "answer": 0,
+                  "explain": "Only strings allowed."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-modern-js-and-tooling-patterns",
+          "title": "Clean Code Patterns",
+          "summary": "Guard clauses, pure functions, naming.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Clean Code Patterns"
+            },
+            {
+              "type": "paragraph",
+              "text": "Readable code beats clever code. Use early returns, descriptive names, and small single-purpose functions."
+            },
+            {
+              "type": "key_takeaways",
+              "items": [
+                "Return early to avoid deep nesting.",
+                "Name things for what they mean, not how.",
+                "Keep functions small and pure when possible."
+              ]
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "A guard clause…",
+                  "opts": [
+                    "Returns early on edge cases",
+                    "Loops",
+                    "Throws always",
+                    "Adds ads"
+                  ],
+                  "answer": 0,
+                  "explain": "Reduces nesting."
+                },
+                {
+                  "q": "A pure function…",
+                  "opts": [
+                    "Has no side effects, same input→output",
+                    "Edits globals",
+                    "Calls the network",
+                    "Logs always"
+                  ],
+                  "answer": 0,
+                  "explain": "Predictable and testable."
+                },
+                {
+                  "q": "Good names are…",
+                  "opts": [
+                    "Descriptive of intent",
+                    "Single letters always",
+                    "Random",
+                    "All caps"
+                  ],
+                  "answer": 0,
+                  "explain": "Readability first."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "projects-and-next-steps",
+      "title": "Projects & Next Steps",
+      "lessons": [
+        {
+          "id": "kotlin_learn-projects-and-next-steps-todo-app",
+          "title": "Project: Todo App",
+          "summary": "Combine DOM, events, and storage.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Project: Todo App"
+            },
+            {
+              "type": "paragraph",
+              "text": "Build a todo list: add items, mark done, persist to localStorage. It uses every core skill you've learned."
+            },
+            {
+              "type": "step_list",
+              "steps": [
+                {
+                  "title": "Read the input",
+                  "body": "On submit, grab and trim the value."
+                },
+                {
+                  "title": "Render the list",
+                  "body": "Map your array of todos to <li> elements."
+                },
+                {
+                  "title": "Persist",
+                  "body": "Save the array as JSON in localStorage."
+                },
+                {
+                  "title": "Load on start",
+                  "body": "Parse storage and render on page load."
+                }
+              ]
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "State (todos) lives in…",
+                  "opts": [
+                    "An array you render from",
+                    "The DOM only",
+                    "CSS",
+                    "The URL"
+                  ],
+                  "answer": 0,
+                  "explain": "Single source of truth."
+                },
+                {
+                  "q": "Why call render() after add()?",
+                  "opts": [
+                    "Reflect new state on screen",
+                    "Save battery",
+                    "Stop events",
+                    "Reload page"
+                  ],
+                  "answer": 0,
+                  "explain": "Re-draw from state."
+                },
+                {
+                  "q": "Persisting uses…",
+                  "opts": [
+                    "localStorage + JSON",
+                    "cookies only",
+                    "a server (required)",
+                    "nothing"
+                  ],
+                  "answer": 0,
+                  "explain": "Survives reloads offline."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-projects-and-next-steps-dom-game",
+          "title": "Project: Click Game",
+          "summary": "Timers, score, and DOM updates.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Project: Click Game"
+            },
+            {
+              "type": "paragraph",
+              "text": "A reaction game ties together setInterval, events, and rendering — and it's fun to demo."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "setInterval runs the callback…",
+                  "opts": [
+                    "Repeatedly every delay",
+                    "Once",
+                    "Never",
+                    "On click"
+                  ],
+                  "answer": 0,
+                  "explain": "Repeats until cleared."
+                },
+                {
+                  "q": "clearInterval(id)…",
+                  "opts": [
+                    "Stops the timer",
+                    "Starts it",
+                    "Doubles speed",
+                    "Logs score"
+                  ],
+                  "answer": 0,
+                  "explain": "Cancels the interval."
+                },
+                {
+                  "q": "Updating textContent each tick…",
+                  "opts": [
+                    "Shows the live countdown",
+                    "Pauses the game",
+                    "Saves score",
+                    "Reloads"
+                  ],
+                  "answer": 0,
+                  "explain": "Renders new state."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-projects-and-next-steps-debugging",
+          "title": "Debugging Kotlin",
+          "summary": "console, breakpoints, and reading errors.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Debugging Kotlin"
+            },
+            {
+              "type": "paragraph",
+              "text": "Every developer debugs constantly. Read the error message, check the line number, and use breakpoints in DevTools Sources."
+            },
+            {
+              "type": "paragraph",
+              "text": "console.log is fine, but breakpoints let you pause and inspect variables live. Read stack traces bottom-up to find where things started."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "A breakpoint lets you…",
+                  "opts": [
+                    "Pause and inspect state",
+                    "Delete code",
+                    "Speed up loops",
+                    "Hide errors"
+                  ],
+                  "answer": 0,
+                  "explain": "Step through execution."
+                },
+                {
+                  "q": "'undefined is not a function' usually means…",
+                  "opts": [
+                    "You called something that isn't a function",
+                    "Network is down",
+                    "CSS error",
+                    "Syntax is fine"
+                  ],
+                  "answer": 0,
+                  "explain": "Check the name/typo."
+                },
+                {
+                  "q": "Stack traces are read…",
+                  "opts": [
+                    "Top = where it threw",
+                    "Randomly",
+                    "Only by tools",
+                    "Never useful"
+                  ],
+                  "answer": 0,
+                  "explain": "Follow the call chain."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-projects-and-next-steps-performance",
+          "title": "Performance Basics",
+          "summary": "Debounce, avoid layout thrash, lazy work.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Performance Basics"
+            },
+            {
+              "type": "paragraph",
+              "text": "Smooth apps avoid doing heavy work on every event. Debounce rapid events and batch DOM updates."
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "Debounce prevents…",
+                  "opts": [
+                    "Running on every keystroke",
+                    "All events",
+                    "Rendering",
+                    "Scrolling"
+                  ],
+                  "answer": 0,
+                  "explain": "Waits for a pause."
+                },
+                {
+                  "q": "Batching DOM updates…",
+                  "opts": [
+                    "Reduces layout work",
+                    "Slows the page",
+                    "Breaks events",
+                    "Is impossible"
+                  ],
+                  "answer": 0,
+                  "explain": "Fewer reflows."
+                },
+                {
+                  "q": "Heavy work should be…",
+                  "opts": [
+                    "Deferred or throttled",
+                    "Run on every frame",
+                    "Always synchronous",
+                    "In the HTML"
+                  ],
+                  "answer": 0,
+                  "explain": "Keep the UI responsive."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kotlin_learn-projects-and-next-steps-keep-learning",
+          "title": "Where to Go Next",
+          "summary": "Frameworks, TypeScript, and practice.",
+          "estimatedMinutes": 7,
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Where to Go Next"
+            },
+            {
+              "type": "paragraph",
+              "text": "With solid Kotlin you can learn React/Vue, TypeScript for types, and Node for backends. Keep building small projects."
+            },
+            {
+              "type": "key_takeaways",
+              "items": [
+                "Build > tutorials: ship tiny projects weekly.",
+                "Learn TypeScript once JS feels natural.",
+                "Read MDN — it's the authoritative reference."
+              ]
+            },
+            {
+              "type": "quiz_set",
+              "title": "Quick check",
+              "items": [
+                {
+                  "q": "TypeScript adds…",
+                  "opts": [
+                    "Static types to JavaScript",
+                    "A new runtime",
+                    "CSS features",
+                    "A database"
+                  ],
+                  "answer": 0,
+                  "explain": "Types catch bugs early."
+                },
+                {
+                  "q": "Best way to improve…",
+                  "opts": [
+                    "Build real projects",
+                    "Only watch videos",
+                    "Memorise syntax",
+                    "Avoid errors"
+                  ],
+                  "answer": 0,
+                  "explain": "Hands-on practice."
+                },
+                {
+                  "q": "React/Vue are…",
+                  "opts": [
+                    "UI frameworks built on JS",
+                    "Languages",
+                    "Databases",
+                    "Browsers"
+                  ],
+                  "answer": 0,
+                  "explain": "They build on JS skills."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
